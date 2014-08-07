@@ -1,5 +1,7 @@
 <?php
 
+Yii::setAlias('@shl', '/yii2doc/assets/syntaxhighlighter');
+
 $params = require(__DIR__ . '/params.php');
 
 $config = [
@@ -7,6 +9,10 @@ $config = [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'components' => [
+    	'urlManager' => [
+    		'enablePrettyUrl' => true,
+    		//'showScriptName' => false,
+    	],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'vX8f-cDKLz2xpMErR-OnGbwj6pKkUEb8',
