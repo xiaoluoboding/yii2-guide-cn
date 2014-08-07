@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Hello SyntaxHighlighter</title>
+	<script type="text/javascript" src="scripts/shCore.js"></script>
+	<script type="text/javascript" src="scripts/shBrushJScript.js"></script>
+
+	<script type="text/javascript" src="scripts/shBrushPhp.js"></script>
+	<link type="text/css" rel="stylesheet" href="styles/shCoreEclipse.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body style="background: white; font-family: Helvetica">
+
+<h1>Hello SyntaxHighlighter</h1>
+<pre class="brush: php;">
+// LoginForm has two attributes: username and password
+class LoginForm extends \yii\base\Model
+{
+    public $username;
+    public $password;
+
+    public function attributeLabels()
+    {
+        return [
+            'username' => 'Your name',
+            'password' => 'Your password',
+        ];
+    }
+}
+</pre>
+
+<pre class="brush: php;">
+class EmployeeController extends \yii\web\Controller
+{
+    public function actionCreate($id = null)
+    {
+        // 第一种方法
+        $employee = new Employee(['scenario' => 'managementPanel']);
+
+        // 第二种方法
+        $employee = new Employee();
+        $employee->scenario = 'managementPanel';
+
+        // 第三种方法
+        $employee = Employee::find()->where('id = :id', [':id' => $id])->one();
+        if ($employee !== null) {
+            $employee->scenario = 'managementPanel';
+        }
+    }
+}
+</pre>
+
+</html>
