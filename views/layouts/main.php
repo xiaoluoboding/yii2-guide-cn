@@ -20,7 +20,9 @@ AppAsset::register($this);
     <script type="text/javascript" src="<?php echo Yii::getAlias("@shl") ?>/scripts/shCore.js"></script>
     <script type="text/javascript" src="<?php echo Yii::getAlias("@shl") ?>/scripts/shBrushPhp.js"></script>
 	<link type="text/css" rel="stylesheet" href="<?php echo Yii::getAlias("@shl") ?>/styles/shCoreDefault.css"/>
-	<script type="text/javascript">SyntaxHighlighter.all();</script>
+	<script type="text/javascript">
+		SyntaxHighlighter.all();
+	</script>
 </head>
 <body>
 

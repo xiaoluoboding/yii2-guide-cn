@@ -1,6 +1,6 @@
 <?php
 
-Yii::setAlias('@shl', '/yii2doc/assets/syntaxhighlighter');
+Yii::setAlias('@shl', '/yii2-guide-cn/assets/syntaxhighlighter');
 
 $params = require(__DIR__ . '/params.php');
 

@@ -21,7 +21,7 @@ use app\controllers\AreaDecorator;
     		<?= $list_column ?>
     	</div>
     		
-    	<div class="col-md-10 col-sm-8">
+    	<div class="col-md-8 col-sm-8">
 			<?= $main_column ?>
 		</div>
 				
