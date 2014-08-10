@@ -16,15 +16,9 @@ use app\controllers\AreaDecorator;
 	
 	<!-- 内容布局 -->
     <?php Block::begin(['id' =>'content']);?>
-    				
-    	<div class="col-md-2 col-sm-4" >
-    		<?= $list_column ?>
-    	</div>
-    		
-    	<div class="col-md-8 col-sm-8">
+    	<div class="container">		
 			<?= $main_column ?>
-		</div>
-				
+		</div>		
     <?php Block::end();?>
 	
 	<!-- 底部布局 -->

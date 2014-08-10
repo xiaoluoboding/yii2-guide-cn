@@ -1,7 +1,9 @@
 <?php
 use yii\helpers\Html;
 
-/* @var $this yii\web\View */
+/**
+ * @var yii\web\View $this
+ */
 $this->title = 'About';
 $this->params['breadcrumbs'][] = $this->title;
 ?>

@@ -97,3 +97,8 @@ a.desc:after {
 h1, .h1, h2, .h2, h3, .h3{
 	margin-top: 5px;
 }
+/* 为代码片段设置外框虚线1px*/
+.syntaxhighlighter {
+	border :1px dashed ;
+	color : #ccc;
+}

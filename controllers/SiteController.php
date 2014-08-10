@@ -18,7 +18,7 @@ class SiteController extends Controller {
 	 * @var layout
 	 */
 	public $layout = "content";
-	public $Nameidx;
+	
 	public function behaviors() {
 		return [ 
 			'access' => [ 
@@ -54,16 +54,7 @@ class SiteController extends Controller {
 	public function actionIndex() {
 		return $this->render ( 'index' );
 	}
-	/**
-	 * 渲染目录文件
-	 *
-	 * @return render()
-	 */
-	public function actionGuidelist($id) {
-		$Enname = $this->getEnname ( $id );
-		
-		return $this->render ( $Enname );
-	}
+	
 	public function actionLogin() {
 		if (! \Yii::$app->user->isGuest) {
 			return $this->goHome ();
@@ -97,30 +88,5 @@ class SiteController extends Controller {
 	}
 	public function actionAbout() {
 		return $this->render ( 'about' );
-	}
-	
-	/**
-	 * 获取guidelist->enname
-	 *
-	 * @param $id
-	 * @return $Enname
-	 */
-	public function getEnname($id) {
-		$Guidelistdata = Guidelist::findOne ( $id );
-		
-		// 赋值常量list->enname索引
-		$this->Nameidx = $Guidelistdata->enname;
-		
-		return $this->Nameidx;
-	}
-	/**
-	 * 获取guidelist
-	 * 
-	 * @return guidelistdata
-	 */
-	public function loadGuidelist() {
-		$Guidelistdata = Guidelist::find ()->asArray ()->all ();
-		
-		return $Guidelistdata;
 	}
 }

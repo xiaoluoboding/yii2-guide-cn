@@ -17,9 +17,10 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
     <!-- syntaxhighlighter -->
-    <script type="text/javascript" src="<?php echo Yii::getAlias("@shl") ?>/scripts/shCore.js"></script>
-    <script type="text/javascript" src="<?php echo Yii::getAlias("@shl") ?>/scripts/shBrushPhp.js"></script>
-	<link type="text/css" rel="stylesheet" href="<?php echo Yii::getAlias("@shl") ?>/styles/shCoreDefault.css"/>
+    <script type="text/javascript" src="<?php echo Yii::getAlias("@syntax") ?>/scripts/shCore.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::getAlias("@syntax") ?>/scripts/shBrushPhp.js"></script>
+	<script type="text/javascript" src="<?php echo Yii::getAlias("@syntax") ?>/scripts/shBrushSql.js"></script>
+	<link type="text/css" rel="stylesheet" href="<?php echo Yii::getAlias("@syntax") ?>/styles/shCoreDefault.css"/>
 	<script type="text/javascript">
 		SyntaxHighlighter.all();
 	</script>
@@ -34,7 +35,7 @@ AppAsset::register($this);
     	</div>
     
 		<div class="container">
-			<div class= "row" >
+			<div class="row" >
         		<?= $content ?>
 			</div>
 		</div>

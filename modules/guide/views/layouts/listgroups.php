@@ -10,7 +10,7 @@ foreach ($guidelist as $k => $v ) {
 	
 	$id = $v['id'];
 	$label = Html::encode($v['cnname']);
-	echo Html::a($label, ['site/guidelist', 'id' => $id], [
+	echo Html::a($label, ['default/guidelist', 'id' => $id], [
 		'class' => $v['enname'] === $ActiveId ? 'list-group-item active' : 'list-group-item',
 	]);
 }

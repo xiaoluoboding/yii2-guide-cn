@@ -8,12 +8,6 @@ use app\controllers\AreaDecorator;
 
 <?php AreaDecorator::begin(['viewFile'=>'@app/views/layouts/columns.php'])?>
 				
-		<!-- 侧边栏布局 -->
-    	<?php Block::begin(['id' =>'list_column']);?>
-    		<?php include( Yii::getAlias("@app") . '/views/layouts/listgroups.php');?>
-    	<?php Block::end();?>
-    		
-    		
     	<!-- 主界面布局 -->
 		<?php Block::begin(['id' =>'main_column']);?>
         		
