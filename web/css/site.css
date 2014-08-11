@@ -89,7 +89,7 @@ a.desc:after {
     padding: 10px 20px;
     margin: 0 0 15px 0;
 }
-
+/* 设置页面宽度*/
 .container {
 	width: 1280px;
 }
@@ -97,8 +97,14 @@ a.desc:after {
 h1, .h1, h2, .h2, h3, .h3{
 	margin-top: 5px;
 }
-/* 为代码片段设置外框虚线1px*/
+
+/* 为代码片段设置外框虚线1px */
 .syntaxhighlighter {
 	border :1px dashed ;
 	color : #ccc;
 }
+
+a.list-group-item{
+	color: #428BCA;
+}
+
