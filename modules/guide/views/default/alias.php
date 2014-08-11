@@ -13,7 +13,7 @@ Yii::setAlias('@bar', 'http://www.example.com');
 <blockquote>
 <p>注意：别名所指向的文件路径或 URL 不一定是真实存在的文件或资源。</p>
 </blockquote>
-<p>可以通过在一个别名后面加斜杠 <code>/</code> 和一至多个路径分段生成新别名（无需调用 [[Yii::setAlias()]]）。我们把通过 [[Yii::setAlias()]] 定义的别名称为<strong>根别名</strong>，而用他们衍生出去的别名成为<strong>衍生别名</strong>。例如，<code>@foo</code> 就是跟别名，而 <code>@foo/bar/file.php</code> 是一个衍生别名。</p>
+<p>可以通过在一个别名后面加斜杠 <code>/</code> 和一至多个路径分段生成新别名（无需调用 [[Yii::setAlias()]]）。我们把通过 [[Yii::setAlias()]] 定义的别名称为<strong>根别名</strong>，而用他们衍生出去的别名成为<strong>衍生别名</strong>。例如，<code>@foo</code> 就是根别名，而 <code>@foo/bar/file.php</code> 是一个衍生别名。</p>
 <p>你还可以用别名去定义新别名（根别名与衍生别名均可）：</p>
 <pre class="brush: php;toolbar: false">Yii::setAlias('@foobar', '@foo/bar');</pre>
 <p>根别名通常在引导阶段定义。比如你可以在入口脚本里调用 [[Yii::setAlias()]]。为了方便起见，应用提供了一个名为 <code>aliases</code> 的可写属性，你可以在应用<a href="guidelist?id=12">配置</a>中设置它，就像这样：</p>

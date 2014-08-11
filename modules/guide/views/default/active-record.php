@@ -356,7 +356,7 @@ class Order extends \yii\db\ActiveRecord
 }
 </pre>
 <p>&nbsp;</p>
-<h2>延迟加载和即时加载（又称惰性加载与贪婪加载）</h2>
+<h2>延迟加载和即时加载（又称惰性加载与贪婪加载）<a href="#lazy-and-eager-loading" name="lazy-and-eager-loading"></a></h2>
 <p>如前所述，当你第一次连接关联对象时， AR 将执行一个数据库查询 来检索请求数据并填充到关联对象的相应属性。 如果再次连接相同的关联对象，不再执行任何查询语句，这种数据库查询的执行方法称为“延迟加载”。如：</p>
 <pre class="brush: php;toolbar: false">
 // SQL executed: SELECT * FROM customer WHERE id=1

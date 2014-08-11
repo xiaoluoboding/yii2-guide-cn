@@ -2,8 +2,8 @@
 <p>Yii一个最为强大的功能就是如何处理数据。在Yii中，你可以直接在视图文件中输出数据，对于前台页面这是好的方式。不过对于后台，Yii提供的数据和界面组件将节约大量的开发时间。</p>
 <p>通常，你将遵循如下步骤来使用这些数据组件：</p>
 <ol>
-<li>配置数据提供器（<a href="#">data provider</a>），它可以从数组、或SQL命令、或者一个Active Record查询等方式中获取数据。</li>
-<li>把这个数据提供器传给一个界面小部件（widget）, 比如一个 <a href="#">list view</a> 或者 <a href="#">grid view</a>。</li>
+<li>配置数据提供器（<a href="guidelist?id=18">data provider</a>），它可以从数组、或SQL命令、或者一个Active Record查询等方式中获取数据。</li>
+<li>把这个数据提供器传给一个界面小部件（widget）, 比如一个 <a href="guidelist?id=19#listview">list view</a> 或者 <a href="guidelist?id=17">grid view</a>。</li>
 <li>定制这个界面组件以反映出你的界面风格。</li>
 </ol>
 <p>通过这些简单步骤，你就能拥有一个强大的用户界面了，比如一个功能完整的数据表格，支持分页、排序、过滤。非常适合网站的管理后台。</p>

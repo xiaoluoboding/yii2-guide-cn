@@ -233,5 +233,5 @@ public function rules()
 </pre>
 <p>然后在 <code>search()</code> 方法只须以 <code>$query-&gt;andFilterWhere(['LIKE', 'author.name', $this-&gt;getAttribute('author.name')]);</code>添加另一个过滤条件。</p>
 <blockquote>
-<p>须知：更多有关 <code>joinWith</code> 和后台执行查询的相关信息请参考 <a href="#">活动记录的预先加载和延迟加载</a>.</p>
+<p>须知：更多有关 <code>joinWith</code> 和后台执行查询的相关信息请参考 <a href="guidelist?id=2#lazy-and-eager-loading">活动记录的延迟加载和即时加载</a>.</p>
 </blockquote>
