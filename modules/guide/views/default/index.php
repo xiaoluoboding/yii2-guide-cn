@@ -3,9 +3,7 @@ $this->title = 'Yii框架2.0中文开发文档';
 ?>
 <h1>Yii 2.0权威指南</h1>
 <p>本指南发布遵循 <a href="http://www.yiiframework.com/doc/terms/">Yii 文档使用许可</a></p>
-<p>&nbsp;</p>
 <p>All Rights Reserved.</p>
-<p>&nbsp;</p>
 <p>2014 (c) Yii Software LLC.</p>
 <p>&nbsp;</p>
 <h2>介绍</h2>
@@ -16,7 +14,7 @@ $this->title = 'Yii框架2.0中文开发文档';
 <p>&nbsp;</p>
 <h2>安装</h2>
 <ul>
-	<li><a href="guidelist?id=29">安装</a> - 下载Yii以及WEB服务器配置</li>
+	<li><a href="guidelist?id=29">安装Yii框架</a> - 下载Yii以及WEB服务器配置</li>
 	<li><a href="guidelist?id=6">基础应用模板</a> - 这是一个简单的前端应用实例</li>
 	<li><a href="guidelist?id=3">高级应用模板</a> - 高级应用实例，包含了前后端页面以及数据库访问</li>
 	<li><a href="guidelist?id=15">创建你自己的应用程序结构</a> - 学习如何从零开始</li>
