@@ -76,6 +76,15 @@ $this->title = 'Yii框架2.0中文开发文档';
 	<li><a href="guidelist?id=17">数据表格（GridView）</a></li>
 </ul>
 <p>&nbsp;</p>
+<h2>缓存</h2>
+<ul>
+	<li><a href="guidelist?id=10">概述</a></li>
+	<li><a href="guidelist?id=55">数据缓存（Data Caching）</a></li>
+	<li><a href="guidelist?id=56">片段缓存（Fragment Caching）</a></li>
+	<li><a href="guidelist?id=57">页面缓存（Page Caching）</a></li>
+	<li><a href="guidelist?id=58">HTTP 缓存（HTTP Caching）</a></li>
+</ul>
+<p>&nbsp;</p>
 <h2>高级专题</h2>
 <ul>
 	<li><a href="guidelist?id=34">资源管理（Assets）</a></li>
@@ -83,7 +92,6 @@ $this->title = 'Yii框架2.0中文开发文档';
 	<li><a href="guidelist?id=28">实现RESTful Web服务API</a></li>
 	<li><a href="guidelist?id=9">Bootstrap小部件</a> - 使用 <a href="http://getbootstrap.com/">twitter bootstrap</a></li>
 	<li><a href="guidelist?id=44">主题（Theming）</a></li>
-	<li><a href="guidelist?id=10">缓存（Caching）</a> - 缓存数据，页面片段和HTTP 请求</li>
 	<li><a href="guidelist?id=30">国际化（i18n）</a> - 消息翻译和格式化</li>
 	<li><a href="guidelist?id=45">URL管理</a> - 路由，定制化urls 和 SEO</li>
 	<li><a href="guidelist?id=13">命令行应用</a></li>

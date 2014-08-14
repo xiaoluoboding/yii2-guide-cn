@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50617
 File Encoding         : 65001
 
-Date: 2014-08-11 00:35:10
+Date: 2014-08-14 23:40:48
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -44,7 +44,7 @@ INSERT INTO `guidelist` VALUES ('12', 'configuration', '配置（Configuration �
 INSERT INTO `guidelist` VALUES ('13', 'console', '命令行应用');
 INSERT INTO `guidelist` VALUES ('14', 'controller', '控制器（Controller）');
 INSERT INTO `guidelist` VALUES ('15', 'apps-own', '自建应用程序结构');
-INSERT INTO `guidelist` VALUES ('16', 'data-overview', '数据源和小部件');
+INSERT INTO `guidelist` VALUES ('16', 'data-overview', '数据提供器和小部件');
 INSERT INTO `guidelist` VALUES ('17', 'data-grid', '数据表格');
 INSERT INTO `guidelist` VALUES ('18', 'data-providers', '数据提供器');
 INSERT INTO `guidelist` VALUES ('19', 'data-widgets', '数据小部件');
@@ -57,9 +57,9 @@ INSERT INTO `guidelist` VALUES ('25', 'extensions', '扩展（Extends）');
 INSERT INTO `guidelist` VALUES ('26', 'test-fixture', '测试装置');
 INSERT INTO `guidelist` VALUES ('27', 'helpers', '帮助类');
 INSERT INTO `guidelist` VALUES ('28', 'rest', 'RESTful WEB服务');
-INSERT INTO `guidelist` VALUES ('29', 'installation', '安装');
+INSERT INTO `guidelist` VALUES ('29', 'installation', '安装 Yii框架');
 INSERT INTO `guidelist` VALUES ('30', 'i18n', '国际化（i18n）');
-INSERT INTO `guidelist` VALUES ('31', 'logging', '日志');
+INSERT INTO `guidelist` VALUES ('31', 'logging', '日志（Logging）');
 INSERT INTO `guidelist` VALUES ('32', 'mvc', 'MVC 概述');
 INSERT INTO `guidelist` VALUES ('33', 'console-fixture', '命令行装置');
 INSERT INTO `guidelist` VALUES ('34', 'assets', '资源管理（Assets）');
@@ -83,3 +83,7 @@ INSERT INTO `guidelist` VALUES ('51', 'form', '表单（Forms）');
 INSERT INTO `guidelist` VALUES ('52', 'components', '组件（Component）');
 INSERT INTO `guidelist` VALUES ('53', 'properties', '属性（Property）');
 INSERT INTO `guidelist` VALUES ('54', 'Alias', '别名（Alias）');
+INSERT INTO `guidelist` VALUES ('55', 'caching-data', '数据缓存');
+INSERT INTO `guidelist` VALUES ('56', 'caching-fragment', '片段缓存');
+INSERT INTO `guidelist` VALUES ('57', 'caching-page', '页面缓存');
+INSERT INTO `guidelist` VALUES ('58', 'caching-http', 'HTTP 缓存');

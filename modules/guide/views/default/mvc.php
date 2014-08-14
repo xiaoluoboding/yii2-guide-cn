@@ -10,7 +10,6 @@
 <p>下图展示了Yii应用处理用户请求的典型的请求生命周期：</p>
 <p><img src="http://www.yiiframework.com/doc-2.0/images/flow.png" alt="Typical workflow of a Yii application" /></p>
 <ol class="task-list">
-<ol>
 <li>用户发出了访问 URL <code>http://www.example.com/index.php?r=post/show&amp;id=1</code> 的请求， Web 服务器通过执行入口脚本 <code>index.php</code> 处理此请求。</li>
 <li>入口脚本创建了一个应用实例并执行。</li>
 <li>应用从一个叫做 <code>request</code> 的 <a href="guidelist?id=52">应用组件</a> 中获得了用户请求的详细信息。</li>
