@@ -88,7 +88,7 @@ $this->title = 'Yii框架2.0中文开发文档';
 <h2>高级专题</h2>
 <ul>
 	<li><a href="guidelist?id=34">资源管理（Assets）</a></li>
-	<li><a href="guidelist?id=51">表单（Forms）</a></li>
+	<li><a href="guidelist?id=51">使用表单（Forms）</a></li>
 	<li><a href="guidelist?id=28">实现RESTful Web服务API</a></li>
 	<li><a href="guidelist?id=9">Bootstrap小部件</a> - 使用 <a href="http://getbootstrap.com/">twitter bootstrap</a></li>
 	<li><a href="guidelist?id=44">主题（Theming）</a></li>
@@ -96,7 +96,7 @@ $this->title = 'Yii框架2.0中文开发文档';
 	<li><a href="guidelist?id=45">URL管理</a> - 路由，定制化urls 和 SEO</li>
 	<li><a href="guidelist?id=13">命令行应用</a></li>
 	<li><a href="guidelist?id=37">性能调优</a></li>
-	<li><a href="guidelist?id=41">测试</a></li>
+	<li><a href="guidelist?id=41">测试（Testing）</a></li>
 	<li><a href="guidelist?id=26">管理测试装置Fixtures</a></li>
 	<li><a href="guidelist?id=40">服务定位器和依赖注入</a></li>
 </ul>

@@ -53,11 +53,11 @@ if ($data === false) {
 <h3>支持的缓存存储器</h3>
 <p>Yii 支持一系列缓存存储器，概况如下：</p>
 <ul class="task-list">
-<li>[[yii\caching\ApcCache]]：使用 PHP <a href="http://php.net/manual/en/book.apc.php" target="_blank">APC</a> 扩展。这个选项可以认为是集中式应用程序环境中（例如：单一服务器，没有独立的负载均衡器等）最快的缓存方案。</li>
+<li>[[yii\caching\ApcCache]]：使用 PHP <a href="http://php.net/manual/zh/book.apc.php" target="_blank">APC</a> 扩展。这个选项可以认为是集中式应用程序环境中（例如：单一服务器，没有独立的负载均衡器等）最快的缓存方案。</li>
 <li>[[yii\caching\DbCache]]：使用一个数据库的表存储缓存数据。要使用这个缓存，你必须创建一个与 [[yii\caching\DbCache::cacheTable]] 对应的表。</li>
 <li>[[yii\caching\DummyCache]]: 仅作为一个缓存占位符，不实现任何真正的缓存功能。这个组件的目的是为了简化那些需要查询缓存有效性的代码。例如，在开发中如果服务器没有实际的缓存支 持，用它配置一个缓存组件。一个真正的缓存服务启用后，可以再切换为使用相应的缓存组件。两种条件下你都可以使用同样的代码 <code>Yii::$app-&gt;cache-&gt;get($key)</code> 尝试从缓存中取回数据而不用担心 <code>Yii::$app-&gt;cache</code> 可能是 <code>null</code>。</li>
 <li>[[yii\caching\FileCache]]：使用标准文件存储缓存数据。这个特别适用于缓存大块数据，例如一个整页的内容。</li>
-<li>[[yii\caching\MemCache]]：使用 PHP <a href="http://php.net/manual/en/book.memcache.php" target="_blank">memcache</a> 和 <a href="http://php.net/manual/en/book.memcached.php" target="_blank">memcached</a> 扩展。这个选项被看作分布式应用环境中（例如：多台服务器，有负载均衡等）最快的缓存方案。</li>
+<li>[[yii\caching\MemCache]]：使用 PHP <a href="http://php.net/manual/zh/book.memcache.php" target="_blank">memcache</a> 和 <a href="http://php.net/manual/zh/book.memcached.php" target="_blank">memcached</a> 扩展。这个选项被看作分布式应用环境中（例如：多台服务器，有负载均衡等）最快的缓存方案。</li>
 <li>[[yii\redis\Cache]]：实现了一个基于 <a href="http://redis.io/" target="_blank">Redis</a> 键值对存储器的缓存组件（需要 redis 2.6.12 及以上版本的支持 ）。</li>
 <li>[[yii\caching\WinCache]]：使用 PHP <a href="http://iis.net/downloads/microsoft/wincache-extension" target="_blank">WinCache</a>（<a href="http://php.net/manual/en/book.wincache.php" target="_blank">另可参考</a>）扩展.</li>
 <li>[[yii\caching\XCache]]：使用 PHP <a href="http://xcache.lighttpd.net/" target="_blank">XCache</a>扩展。</li>
