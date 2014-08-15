@@ -1,6 +1,7 @@
 <?php
 
-Yii::setAlias('@syntax', '/yii2-guide-cn/assets/syntaxhighlighter');
+Yii::setAlias('@assets', '/yii2-guide-cn/assets');
+Yii::setAlias('@webdir', '/yii2-guide-cn/web');
 
 $components = require(__DIR__ . '/components.php');
 $params = require(__DIR__ . '/params.php');
