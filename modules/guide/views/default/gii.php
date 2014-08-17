@@ -173,4 +173,6 @@ class Generator extends \yii\gii\Generator
 }
 </pre>
 <p>打开Gii，你会看到一个你新建的生成器。</p>
-<blockquote><p>Yii2使用Gii图文教程，参见我的博文：<a href="http://www.xlbd.net/.html">Yii2使用Gii图文教程</a></p></blockquote>
+<blockquote>
+<p>Yii2使用Gii图文教程，参见我的博文：<a href="http://www.xlbd.net/xlbd/2059.html" target="_blank">Yii2 快速生成代码工具 Gii 的使用</a></p>
+</blockquote>

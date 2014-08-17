@@ -1,15 +1,12 @@
 <?php
 $this->title = 'Yii框架2.0中文开发文档';
+require "title.php";
 ?>
-<h1>Yii 2.0权威指南</h1>
-<p>本指南发布遵循 <a href="http://www.yiiframework.com/doc/terms/">Yii 文档使用许可</a></p>
-<p>All Rights Reserved.</p>
-<p>2014 (c) Yii Software LLC.</p>
 <p>&nbsp;</p>
 <h2>介绍</h2>
 <ul>
 	<li><a href="guidelist?id=50">概述</a> - Yii及其特点</li>
-	<li><a href="guidelist?id=46">从Yii1.x版本升级到Yii2.0</a></li>
+	<li><a href="guidelist?id=46">从Yii1.1.x版本升级到Yii2.0</a></li>
 </ul>
 <p>&nbsp;</p>
 <h2>安装</h2>
@@ -55,9 +52,9 @@ $this->title = 'Yii框架2.0中文开发文档';
 <h2>扩展和第三方库</h2>
 <ul>
 	<li><a href="guidelist?id=11">Composer</a> - Composer是PHP的应用程序依赖管理工具</li>
-	<li><a href="guidelist?id=25">Yii扩展</a></li>
+	<li><a href="guidelist?id=25">Yii 扩展</a> - 扩展让Yii框架使用起来更方便</li>
 	<li><a href="guidelist?id=48">模板引擎</a> - 使用Smarty或者Twig模板引擎</li>
-	<li><a href="guidelist?id=47">集成Yii和第三方系统</a> - 在第三方系统中使用Yii 以及同时使用Yii 1 和 2</li>
+	<li><a href="guidelist?id=47">使用第三方库</a> - 在第三方系统中使用Yii 以及同时使用Yii 1 和 2</li>
 </ul>
 <p>&nbsp;</p>
 <h2>安全和访问控制</h2>
@@ -94,8 +91,8 @@ $this->title = 'Yii框架2.0中文开发文档';
 	<li><a href="guidelist?id=44">主题（Theming）</a></li>
 	<li><a href="guidelist?id=30">国际化（i18n）</a> - 消息翻译和格式化</li>
 	<li><a href="guidelist?id=45">URL管理</a> - 路由，定制化urls 和 SEO</li>
-	<li><a href="guidelist?id=13">命令行应用</a></li>
-	<li><a href="guidelist?id=37">性能调优</a></li>
+	<li><a href="guidelist?id=13">控制台应用</a></li>
+	<li><a href="guidelist?id=37">性能优化</a></li>
 	<li><a href="guidelist?id=41">测试（Testing）</a></li>
 	<li><a href="guidelist?id=26">管理测试装置Fixtures</a></li>
 	<li><a href="guidelist?id=40">服务定位器和依赖注入</a></li>

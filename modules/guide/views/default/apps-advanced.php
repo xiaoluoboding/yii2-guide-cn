@@ -170,6 +170,7 @@ return [
 <pre class="brush: php;toolbar:false;">
 echo Yii::$app->urlManagerFrontend->createUrl(...);
 </pre>
-<p>&nbsp;</p>
-<h2>图文安装教程</h2>
-请移步到我的博客：<a href="http://www.xlbd.net/.html" target="_blank">通过Composer安装Yii高级模板</a>
+<blockquote>
+<p>图文安装教程，参见我的博文：<a href="http://www.xlbd.net/xlbd/1995.html" target="_blank">通过Composer安装Yii2框架</a></p>
+</blockquote>
+
