@@ -36,7 +36,7 @@ class DefaultController extends Controller
      */
     public function getEnname($id) {
     	$Guidelistdata = Guidelist::findOne ( $id );
-    
+  
     	// 赋值常量list->enname索引
     	$this->Nameidx = $Guidelistdata->enname;
     

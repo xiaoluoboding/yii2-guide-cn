@@ -40,22 +40,21 @@
     			'url' => ['/extends']
 			],
             ['label' => '中文权威指南', 'url' => ['/guide/default/guidelist?id=1']],
-    		[	'label' => '实用教程',
+    		/*[	'label' => '实用教程',
     		 	'url' => ['/tutorial/index']
 			],
-    		'<div class="navbar-form navbar-left" role="search">
+    		 '<div class="navbar-form navbar-left" role="search">
     			<div class="form-group">
     				<input type="text" id="searchbox" class="form-control" placeholder="Search"/>
     			</div>
-    		</div>',
+    		</div>', */
             
         ],
     ]);
     echo Nav::widget([
     	'options' => ['class' => 'navbar-nav navbar-right'],
     	'items' => [
-			['label' => 'About', 'url' => ['/site/about']],
-			['label' => 'Contact', 'url' => ['/site/contact']],
+			['label' => '关于', 'url' => ['/site/about']],
     	],
     ]);
     NavBar::end();

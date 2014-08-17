@@ -16,7 +16,6 @@ use app\controllers\AreaDecorator;
 			<?= $content ?>
 				
 		<?php Block::end();?>
-			
-
+	
 <?php AreaDecorator::end();?>
 

@@ -15,10 +15,8 @@ use app\controllers\AreaDecorator;
 	<?php Block::end();?>
 	
 	<!-- 内容布局 -->
-    <?php Block::begin(['id' =>'content']);?>
-    	<div class="container">		
-			<?= $main_column ?>
-		</div>		
+    <?php Block::begin(['id' =>'content']);?>	
+			<?= $main_column ?>	
     <?php Block::end();?>
 	
 	<!-- 底部布局 -->

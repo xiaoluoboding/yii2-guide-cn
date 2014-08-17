@@ -1,162 +1,186 @@
-html,
-body {
-    height: 100%;
+html,body {
+	height: 100%;
 }
 
 .wrap {
-    min-height: 100%;
-    height: auto;
-    margin: 0 auto -60px;
-    padding: 0 0 60px;
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto -60px;
+	padding: 0 0 60px;
 }
 
-.wrap > .container {
-    padding: 70px 15px 20px;
+.wrap>.container {
+	padding: 70px 15px 20px;
 }
-
+.wrap>.content>.site-index {
+	padding: 50px 0px 0px;
+	background: linear-gradient(45deg, #00ddff 0px, #6D33dd 100%) repeat
+		scroll 0% 0% transparent;
+}
+.wrap>.content>.site-about {
+	padding: 50px 0px 0px;
+	background: linear-gradient(45deg, #6D33dd 0px, #6D3353 100%) repeat
+		scroll 0% 0% transparent;
+}
+.wrap>.content>.site-about>.jumbotron {
+	text-align: left;	
+}
 .footer {
-    height: 60px;
-    background-color: #f5f5f5;
-    border-top: 1px solid #ddd;
-    padding-top: 20px;
+	height: 60px;
+	background-color: #f5f5f5;
+	border-top: 1px solid #ddd;
+	padding-top: 20px;
 }
 
 .jumbotron {
-    text-align: center;
-    background-color: transparent;
+	color: #fff;
+	text-align: center;
+	background: transparent;
+	text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4), 0px 0px 30px rgba(0, 0, 0, 0.075);
 }
 
 .jumbotron .btn {
-    font-size: 21px;
-    padding: 14px 24px;
+	font-size: 21px;
+	padding: 14px 24px;
 }
 
+/* .btn-primary.btn-shadow {
+    box-shadow: 0px -4px 0px #2A6496 inset;
+    border: 0px none;
+    color: #FFF;
+} */
+
 .not-set {
-    color: #c55;
-    font-style: italic;
+	color: #c55;
+	font-style: italic;
 }
 
 /* add sorting icons to gridview sort links */
-a.asc:after, a.desc:after {
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    padding-left: 5px;
+a.asc:after,a.desc:after {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	padding-left: 5px;
 }
 
 a.asc:after {
-    content: /*"\e113"*/ "\e151";
+	content: /*"\e113"*/ "\e151";
 }
 
 a.desc:after {
-    content: /*"\e114"*/ "\e152";
+	content: /*"\e114"*/ "\e152";
 }
 
 .sort-numerical a.asc:after {
-    content: "\e153";
+	content: "\e153";
 }
 
 .sort-numerical a.desc:after {
-    content: "\e154";
+	content: "\e154";
 }
 
 .sort-ordinal a.asc:after {
-    content: "\e155";
+	content: "\e155";
 }
 
 .sort-ordinal a.desc:after {
-    content: "\e156";
+	content: "\e156";
 }
 
 .grid-view th {
-    white-space: nowrap;
+	white-space: nowrap;
 }
 
 .hint-block {
-    display: block;
-    margin-top: 5px;
-    color: #999;
+	display: block;
+	margin-top: 5px;
+	color: #999;
 }
 
 .error-summary {
-    color: #a94442;
-    background: #fdf7f7;
-    border-left: 3px solid #eed3d7;
-    padding: 10px 20px;
-    margin: 0 0 15px 0;
+	color: #a94442;
+	background: #fdf7f7;
+	border-left: 3px solid #eed3d7;
+	padding: 10px 20px;
+	margin: 0 0 15px 0;
 }
 /* 设置页面宽度*/
 .container {
 	width: 1280px;
 }
 
-h1, .h1, h2, .h2, h3, .h3{
+h1,.h1,h2,.h2,h3,.h3,h4,.h4 {
 	margin-top: 5px;
+}
+
+/* 设置导航文字颜色 */
+.navbar-inverse .navbar-brand {
+	color: #ddd;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #ddd;
 }
 
 /* 为代码片段设置外框虚线1px */
 .syntaxhighlighter {
-	border :1px dashed ;
-	color : #ccc;
+	border: 1px dashed;
+	color: #ccc;
 }
 
-a.list-group-item{
+a.list-group-item {
 	color: #428BCA;
 }
 
 /* 返回顶部 */
-* {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-a,
-img {
-    border: 0;
-}
-/* leftsead */
 #leftsead {
-    width: 131px;
-    height: 143px;
-    position: fixed;
-    top: 60%;
-    right: 0px;
-}
-*html #leftsead {
-    margin-top: 258px;
-    position: absolute;
-    top: expression(eval(document.documentElement.scrollTop));
-}
-#leftsead li {
-    width: 131px;
-    height: 60px;
-}
-#leftsead li img {
-    float: right;
-}
-#leftsead li a {
-    height: 49px;
-    float: right;
-    display: block;
-    min-width: 47px;
-    max-width: 131px;
-}
-#leftsead li a .shows {
-    display: block;
-}
-#leftsead li a .hides {
-    margin-right: -143px;
-    cursor: pointer;
-    cursor: hand;
-}
-#leftsead li a.youhui .hides {
-    display: none;
-    position: absolute;
-    right: 190px;
-    top: 2px;
+	width: 131px;
+	height: 143px;
+	position: fixed;
+	top: 60%;
+	right: 0px;
 }
 
+* html #leftsead {
+	margin-top: 258px;
+	position: absolute;
+	top: expression(eval(document.documentElement.scrollTop));
+}
+
+#leftsead li {
+	height: 60px;
+	list-style-type: none;
+}
+
+#leftsead li img {
+	float: right;
+}
+
+#leftsead li a {
+	height: 49px;
+	float: right;
+	display: block;
+	min-width: 47px;
+	max-width: 131px;
+}
+
+#leftsead li a .shows {
+	display: block;
+}
+
+#leftsead li a .hides {
+	margin-right: -143px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+#leftsead li a.youhui .hides {
+	display: none;
+	position: absolute;
+	right: 190px;
+	top: 2px;
+}
