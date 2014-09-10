@@ -3,6 +3,10 @@ return [
 		'urlManager' => [ 
 				'enablePrettyUrl' => true, 
 				//'showScriptName' => false,
+				'rules' => [ 
+					'guide/<id:\d+>'=>'guide/default/guidelist', 
+				],
+				'suffix' => '.html',
 		],
 		'request' => [ 
 				// !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
