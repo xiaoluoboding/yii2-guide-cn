@@ -4,6 +4,7 @@ namespace app\modules\guide\controllers;
 
 use yii\web\Controller;
 use app\modules\guide\models\Guidelist;
+use app\models\SideMenuModel;
 
 class DefaultController extends Controller
 {
@@ -24,9 +25,9 @@ class DefaultController extends Controller
      * @return render()
      */
     public function actionGuidelist($id) {
-    	$Enname = $this->getEnname ( $id );
-    
-    	return $this->render ( $Enname );
+    	$sideMenu = ( array ) SideMenuModel::getGuideListMenu ( $id );
+    	$menuname = $sideMenu ['menuname'];
+    	return $this->render ( $menuname );
     }
     /**
      * 获取guidelist->enname

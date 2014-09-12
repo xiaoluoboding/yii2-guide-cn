@@ -132,10 +132,6 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4 {
 	color: #ccc;
 }
 
-a.list-group-item {
-	color: #428BCA;
-}
-
 /* ·µ»Ø¶¥²¿ */
 #leftsead {
 	width: 131px;
@@ -183,4 +179,43 @@ a.list-group-item {
 	position: absolute;
 	right: 190px;
 	top: 2px;
+}
+
+/* ÉèÖÃ²à±ß²Ëµ¥À¸ */
+.nav-stacked > li + li {
+    margin-top: 0px;
+}
+
+.nav-pills > li.active > a.kv-toggle,
+.kv-toggle > li.active > a.kv-toggle:hover,
+.kv-toggle > li.active > a.kv-toggle:focus
+{
+	color: #fff;
+	background-color: #428BCA;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus{
+	color: #fff;
+	background-color: #44B5F6;
+}
+
+.nav > li > a.kv-toggle:hover, .nav > li > a.kv-toggle:focus {
+	color: #fff;
+	background-color: #428BCA;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+	color: #fff;
+	background-color: #44B5F6;
+}
+
+.kv-sidenav .active > ul {
+	color: #fff;
+	background-color: #f5f5f5;
+}
+
+.nav > li > a {
+	color: #000;
 }

@@ -39,7 +39,7 @@
     			],
     			'url' => ['/extends']
 			],
-            ['label' => '中文权威指南', 'url' => ['/guide/1']],
+            ['label' => '中文权威指南', 'url' => ['/guide/0001']],
     		/*[	'label' => '实用教程',
     		 	'url' => ['/tutorial/index']
 			],
