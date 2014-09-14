@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50617
 File Encoding         : 65001
 
-Date: 2014-08-17 22:57:04
+Date: 2014-09-14 23:17:56
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -20,70 +20,71 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 DROP TABLE IF EXISTS `guidelist`;
 CREATE TABLE `guidelist` (
-  `id` int(11) NOT NULL,
+  `id` varchar(4) NOT NULL,
   `enname` varchar(255) DEFAULT NULL,
   `cnname` varchar(255) DEFAULT NULL,
+  `flag` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of guidelist
 -- ----------------------------
-INSERT INTO `guidelist` VALUES ('1', 'index', '索引');
-INSERT INTO `guidelist` VALUES ('2', 'active-record', 'Active Record');
-INSERT INTO `guidelist` VALUES ('3', 'apps-advanced', '高级应用模板');
-INSERT INTO `guidelist` VALUES ('4', 'authentication', '验证（Authentication）');
-INSERT INTO `guidelist` VALUES ('5', 'authorization', '授权（Authorization）');
-INSERT INTO `guidelist` VALUES ('6', 'apps-basic', '基础应用模板');
-INSERT INTO `guidelist` VALUES ('7', 'basics', '基本概念');
-INSERT INTO `guidelist` VALUES ('8', 'behaviors', '行为（Behavior）');
-INSERT INTO `guidelist` VALUES ('9', 'bootstrap-widgets', 'Bootstrap小部件');
-INSERT INTO `guidelist` VALUES ('10', 'caching', '缓存（Caching）');
-INSERT INTO `guidelist` VALUES ('11', 'composer', 'Composer');
-INSERT INTO `guidelist` VALUES ('12', 'configuration', '配置（Configuration ）');
-INSERT INTO `guidelist` VALUES ('13', 'console', '控制台应用');
-INSERT INTO `guidelist` VALUES ('14', 'controller', '控制器（Controller）');
-INSERT INTO `guidelist` VALUES ('15', 'apps-own', '自建应用程序结构');
-INSERT INTO `guidelist` VALUES ('16', 'data-overview', '数据提供器和小部件');
-INSERT INTO `guidelist` VALUES ('17', 'data-grid', '数据表格');
-INSERT INTO `guidelist` VALUES ('18', 'data-providers', '数据提供器');
-INSERT INTO `guidelist` VALUES ('19', 'data-widgets', '数据小部件');
-INSERT INTO `guidelist` VALUES ('20', 'console-migrate', '数据库迁移');
-INSERT INTO `guidelist` VALUES ('21', 'database-basics', '数据库基础');
-INSERT INTO `guidelist` VALUES ('22', 'module-debug', '调试工具栏和调试器');
-INSERT INTO `guidelist` VALUES ('23', 'error', '错误处理');
-INSERT INTO `guidelist` VALUES ('24', 'events', '事件（Event）');
-INSERT INTO `guidelist` VALUES ('25', 'extensions', '扩展（Extends）');
-INSERT INTO `guidelist` VALUES ('26', 'test-fixture', '测试装置');
-INSERT INTO `guidelist` VALUES ('27', 'helpers', '帮助类');
-INSERT INTO `guidelist` VALUES ('28', 'rest', 'RESTful WEB服务');
-INSERT INTO `guidelist` VALUES ('29', 'installation', '安装 Yii框架');
-INSERT INTO `guidelist` VALUES ('30', 'i18n', '国际化（i18n）');
-INSERT INTO `guidelist` VALUES ('31', 'logging', '日志（Logging）');
-INSERT INTO `guidelist` VALUES ('32', 'mvc', 'MVC 概述');
-INSERT INTO `guidelist` VALUES ('33', 'console-fixture', '控制台装置');
-INSERT INTO `guidelist` VALUES ('34', 'assets', '资源管理（Assets）');
-INSERT INTO `guidelist` VALUES ('35', 'model', '模型（Model）');
-INSERT INTO `guidelist` VALUES ('36', 'validation', '模型验证');
-INSERT INTO `guidelist` VALUES ('37', 'performance', '性能优化');
-INSERT INTO `guidelist` VALUES ('38', 'query-builder', 'SQL查询生成器');
-INSERT INTO `guidelist` VALUES ('39', 'security', '安全（Security)');
-INSERT INTO `guidelist` VALUES ('40', 'di', '服务定位及依赖注入');
-INSERT INTO `guidelist` VALUES ('41', 'testing', '测试（Testing）');
-INSERT INTO `guidelist` VALUES ('42', 'title', 'Yii2.0权威指南');
-INSERT INTO `guidelist` VALUES ('43', 'gii', '代码生成器（Gii）');
-INSERT INTO `guidelist` VALUES ('44', 'theming', '主题（Theming）');
-INSERT INTO `guidelist` VALUES ('45', 'url', 'URL管理');
-INSERT INTO `guidelist` VALUES ('46', 'upgrade-from-v1', '从Yii1.1.x升级');
-INSERT INTO `guidelist` VALUES ('47', 'using-3rd-party-libraries', '使用第三方库');
-INSERT INTO `guidelist` VALUES ('48', 'template', '使用模板引擎');
-INSERT INTO `guidelist` VALUES ('49', 'view', '视图（View）');
-INSERT INTO `guidelist` VALUES ('50', 'overview', 'Yii 概述');
-INSERT INTO `guidelist` VALUES ('51', 'form', '表单（Forms）');
-INSERT INTO `guidelist` VALUES ('52', 'components', '组件（Component）');
-INSERT INTO `guidelist` VALUES ('53', 'properties', '属性（Property）');
-INSERT INTO `guidelist` VALUES ('54', 'Alias', '别名（Alias）');
-INSERT INTO `guidelist` VALUES ('55', 'caching-data', '数据缓存');
-INSERT INTO `guidelist` VALUES ('56', 'caching-fragment', '片段缓存');
-INSERT INTO `guidelist` VALUES ('57', 'caching-page', '页面缓存');
-INSERT INTO `guidelist` VALUES ('58', 'caching-http', 'HTTP 缓存');
+INSERT INTO `guidelist` VALUES ('0001', 'index', '索引', '1');
+INSERT INTO `guidelist` VALUES ('0101', 'overview', 'Yii 概述', '1');
+INSERT INTO `guidelist` VALUES ('0102', 'upgrade-from-v1', '从Yii1.1.x升级', '1');
+INSERT INTO `guidelist` VALUES ('0201', 'installation', '安装 Yii框架', '1');
+INSERT INTO `guidelist` VALUES ('0202', 'start-workflow', '运行应用', '1');
+INSERT INTO `guidelist` VALUES ('0305', 'controller', '控制器（Controller）', '1');
+INSERT INTO `guidelist` VALUES ('0306', 'view', '视图（View）', '1');
+INSERT INTO `guidelist` VALUES ('0307', 'model', '模型（Model）', '1');
+INSERT INTO `guidelist` VALUES ('0312', 'assets', '资源管理（Assets）', '1');
+INSERT INTO `guidelist` VALUES ('0313', 'extensions', '扩展（extensions）', '1');
+INSERT INTO `guidelist` VALUES ('0406', 'url', 'URL管理', '1');
+INSERT INTO `guidelist` VALUES ('0407', 'error', '错误处理', '1');
+INSERT INTO `guidelist` VALUES ('0408', 'logging', '日志（Logging）', '1');
+INSERT INTO `guidelist` VALUES ('0501', 'components', '组件（Component）', '1');
+INSERT INTO `guidelist` VALUES ('0502', 'properties', '属性（Property）', '1');
+INSERT INTO `guidelist` VALUES ('0503', 'events', '事件（Event）', '1');
+INSERT INTO `guidelist` VALUES ('0504', 'behaviors', '行为（Behavior）', '1');
+INSERT INTO `guidelist` VALUES ('0505', 'configuration', '配置（Configuration ）', '1');
+INSERT INTO `guidelist` VALUES ('0507', 'alias', '别名（Alias）', '1');
+INSERT INTO `guidelist` VALUES ('0508', 'service-locator', '服务定位器', '1');
+INSERT INTO `guidelist` VALUES ('0509', 'di', '依赖注入容器', '1');
+INSERT INTO `guidelist` VALUES ('0601', 'database-basics', '数据访问对象', '1');
+INSERT INTO `guidelist` VALUES ('0602', 'query-builder', 'SQL查询生成器', '1');
+INSERT INTO `guidelist` VALUES ('0603', 'active-record', 'Active Record', '1');
+INSERT INTO `guidelist` VALUES ('0604', 'console-migrate', '数据库迁移', '1');
+INSERT INTO `guidelist` VALUES ('0701', 'form', '表单（Forms）', '1');
+INSERT INTO `guidelist` VALUES ('0804', 'data-providers', '数据提供器', '1');
+INSERT INTO `guidelist` VALUES ('0805', 'data-widgets', '数据小部件', '1');
+INSERT INTO `guidelist` VALUES ('0807', 'theming', '主题（Theming）', '1');
+INSERT INTO `guidelist` VALUES ('0901', 'authentication', '验证（Authentication）', '1');
+INSERT INTO `guidelist` VALUES ('0902', 'authorization', '授权（Authorization）', '1');
+INSERT INTO `guidelist` VALUES ('0903', 'security', '安全（Security)', '2');
+INSERT INTO `guidelist` VALUES ('1001', 'caching-overview', '缓存（Caching）', '1');
+INSERT INTO `guidelist` VALUES ('1002', 'caching-data', '数据缓存', '1');
+INSERT INTO `guidelist` VALUES ('1003', 'caching-fragment', '片段缓存', '1');
+INSERT INTO `guidelist` VALUES ('1004', 'caching-page', '页面缓存', '1');
+INSERT INTO `guidelist` VALUES ('1005', 'caching-http', 'HTTP 缓存', '1');
+INSERT INTO `guidelist` VALUES ('1109', 'testing', '测试（Testing）', '1');
+INSERT INTO `guidelist` VALUES ('1201', 'module-debug', '调试工具栏和调试器', '1');
+INSERT INTO `guidelist` VALUES ('1202', 'gii', '代码生成器（Gii）', '1');
+INSERT INTO `guidelist` VALUES ('1306', 'test-fixture', '测试固件', '1');
+INSERT INTO `guidelist` VALUES ('1401', 'apps-advanced', '高级应用模板', '1');
+INSERT INTO `guidelist` VALUES ('1403', 'console', '控制台应用', '1');
+INSERT INTO `guidelist` VALUES ('1405', 'i18n', '国际化（i18n）', '1');
+INSERT INTO `guidelist` VALUES ('1407', 'performance', '性能优化', '1');
+INSERT INTO `guidelist` VALUES ('1409', 'template-engines', '使用模板引擎', '1');
+INSERT INTO `guidelist` VALUES ('1410', 'integration', '使用第三方库', '1');
+INSERT INTO `guidelist` VALUES ('1509', 'widget-bootstrap', 'Bootstrap 小部件', '1');
+INSERT INTO `guidelist` VALUES ('2001', 'apps-basic', '基础应用模板', '1');
+INSERT INTO `guidelist` VALUES ('2002', 'basics', '基本概念', '1');
+INSERT INTO `guidelist` VALUES ('2003', 'data-grid', '数据表格', '1');
+INSERT INTO `guidelist` VALUES ('2004', 'composer', 'Composer', '1');
+INSERT INTO `guidelist` VALUES ('2011', 'validation', '模型验证', '2');
+INSERT INTO `guidelist` VALUES ('2014', 'title', 'Yii2.0权威指南', '2');
+INSERT INTO `guidelist` VALUES ('2090', 'apps-own', '自建应用程序结构', '2');
+INSERT INTO `guidelist` VALUES ('2091', 'data-overview', '数据提供器和小部件', '2');
+INSERT INTO `guidelist` VALUES ('2092', 'helpers', '帮助类', '2');
+INSERT INTO `guidelist` VALUES ('2093', 'rest', 'RESTful WEB服务', '2');
