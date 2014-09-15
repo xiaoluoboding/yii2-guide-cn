@@ -51,7 +51,7 @@ echo SideNav::widget ( [
 					'active' => $r === "start-workflow" ? true : false 
 				],
 				[ 
-					'label' => 'Say Hello',
+					'label' => '说声 Hello',
 					'url' => 'index.php/guide/0203.html',
 					'active' => $r === "start-hello" ? true : false 
 				],
