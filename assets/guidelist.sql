@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50617
 File Encoding         : 65001
 
-Date: 2014-09-14 23:17:56
+Date: 2014-09-16 19:14:03
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -35,6 +35,11 @@ INSERT INTO `guidelist` VALUES ('0101', 'overview', 'Yii 概述', '1');
 INSERT INTO `guidelist` VALUES ('0102', 'upgrade-from-v1', '从Yii1.1.x升级', '1');
 INSERT INTO `guidelist` VALUES ('0201', 'installation', '安装 Yii框架', '1');
 INSERT INTO `guidelist` VALUES ('0202', 'start-workflow', '运行应用', '1');
+INSERT INTO `guidelist` VALUES ('0203', 'start-hello', '说声 Hello', '1');
+INSERT INTO `guidelist` VALUES ('0204', 'start-forms', '使用表单', '1');
+INSERT INTO `guidelist` VALUES ('0205', 'start-databases', '使用数据库', '1');
+INSERT INTO `guidelist` VALUES ('0206', 'start-gii', '用Gii生成代码', '1');
+INSERT INTO `guidelist` VALUES ('0207', 'looking-ahead', '进阶资料', '1');
 INSERT INTO `guidelist` VALUES ('0305', 'controller', '控制器（Controller）', '1');
 INSERT INTO `guidelist` VALUES ('0306', 'view', '视图（View）', '1');
 INSERT INTO `guidelist` VALUES ('0307', 'model', '模型（Model）', '1');

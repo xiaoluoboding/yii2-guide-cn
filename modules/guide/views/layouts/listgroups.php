@@ -71,9 +71,9 @@ echo SideNav::widget ( [
 					'active' => $r === "start-gii" ? true : false 
 				],
 				[ 
-					'label' => '展望未来',
+					'label' => '进阶资料',
 					'url' => 'index.php/guide/0207.html',
-					'active' => $r === "look-forward" ? true : false 
+					'active' => $r === "looking-ahead" ? true : false 
 				] 
 			] 
 		],

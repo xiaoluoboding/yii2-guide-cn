@@ -6,9 +6,9 @@
 </ul>
 <p>动作将会依次渲染视图呈现 “Hello” 给最终用户</p>
 <ul>
-	<li>如何创建一个<a href="0305.html">动作</a>去响应请求，</li>
-	<li>如何创建一个<a href="0306.html">视图</a>去构造响应内容，</li>
-	<li>以及一个应用如何分派请求给动作。</li>
+	<li style="list-style: decimal;">如何创建一个<a href="0305.html">动作</a>去响应请求，</li>
+	<li style="list-style: decimal;">如何创建一个<a href="0306.html">视图</a>去构造响应内容，</li>
+	<li style="list-style: decimal;">以及一个应用如何分派请求给动作。</li>
 </ul>
 <p>&nbsp;</p><h2>创建动作</h2><hr>
 <p>为了实现“说声 Hello”，需要创建一个名为<code>say</code>的动作，从请求中接收<code>message</code>参数并显示给最终用户。如果请求没有提供<code>message</code>参数，动作将显示默认参数“Hello”。</p>
@@ -58,7 +58,7 @@ http://hostname/index.php?r=site/say&message=Hello+World
 <blockquote>
 	<p>补充：新页面和其它页面使用同样的头部和尾部是因为 [[yii\web\Controller::render()|render()]] 方法会自动把<code>say</code>视图执行的结果嵌入称为布局的文件中，本例中是<code>views/layouts/main.php</code>。</p>
 </blockquote>
-<p>上面 URL 中的参数<code>r</code>需要更多解释。它代表<a href="">路由</a>，是整个应用级的，指向特定动作的独立 ID。路由格式是 <code>控制器 ID/动作 ID</code>。应用接受请求的时候会检查参数，使用控制器 ID 去确定哪个控制器应该被用来处理请求。然后相应控制器将使用动作 ID 去确定哪个动作方法将被用来做具体工作。上述例子中，路由<code>site/say</code>将被解析至<code>SiteController</code>控制器和其中的<code>say</code>动作。因此<code>SiteController::actionSay()</code>方法将被调用处理请求。</p>
+<p>上面 URL 中的参数<code>r</code>需要更多解释。它代表<a href="#">路由</a>，是整个应用级的，指向特定动作的独立 ID。路由格式是 <code>控制器 ID/动作 ID</code>。应用接受请求的时候会检查参数，使用控制器 ID 去确定哪个控制器应该被用来处理请求。然后相应控制器将使用动作 ID 去确定哪个动作方法将被用来做具体工作。上述例子中，路由<code>site/say</code>将被解析至<code>SiteController</code>控制器和其中的<code>say</code>动作。因此<code>SiteController::actionSay()</code>方法将被调用处理请求。</p>
 <blockquote>
 	<p>补充：与动作一样，一个应用中控制器同样有唯一的 ID。<code>控制器 ID</code>和<code>动作 ID</code>使用同样的命名规则。控制器的类名源自于控制器 ID，移除了连字符，每个单词首字母大写，并加上<code>Controller</code>后缀。例子：控制器 ID<code>post-comment</code>相当于控制器类名<code>PostCommentController</code>。</p>
 </blockquote>
