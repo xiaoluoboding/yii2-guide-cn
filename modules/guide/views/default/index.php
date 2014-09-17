@@ -22,7 +22,7 @@ require "title.php";
 <p>&nbsp;</p>
 <h2>应用结构</h2>
 <ul>
-	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0301.html">概述</a></li>
+	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0301.html">结构概述</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0302.html">入口脚本</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0303.html">应用（Applications）</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0304.html">应用组件</a></li>
@@ -88,7 +88,7 @@ require "title.php";
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0803.html">排序</a></li>
 	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="0804.html">数据提供器</a></li>
 	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="0805.html">数据小部件</a></li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="0806.html">使用脚本</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="0806.html">使用客户端脚本</a></li>
 	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="0807.html">主题（Theming）</a></li>
 </ul>
 <p>&nbsp;</p>

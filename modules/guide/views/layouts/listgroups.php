@@ -81,7 +81,7 @@ echo SideNav::widget ( [
 			'label' => '应用结构',
 			'items' => [ 
 				[ 
-					'label' => '结构总览',
+					'label' => '结构概述',
 					'url' => 'index.php/guide/0301.html',
 					'active' => $r === "app-overview" ? true : false 
 				],
@@ -118,17 +118,17 @@ echo SideNav::widget ( [
 				[ 
 					'label' => '过滤器（Filters）',
 					'url' => 'index.php/guide/0308.html',
-					'active' => $r === "filter" ? true : false 
+					'active' => $r === "filters" ? true : false 
 				],
 				[ 
 					'label' => '小部件（Widgets）',
 					'url' => 'index.php/guide/0309.html',
-					'active' => $r === "widget" ? true : false 
+					'active' => $r === "widgets" ? true : false 
 				],
 				[ 
 					'label' => '模块（Modules）',
 					'url' => 'index.php/guide/0310.html',
-					'active' => $r === "module" ? true : false 
+					'active' => $r === "modules" ? true : false 
 				],
 				[ 
 					'label' => '资源管理（Assets）',
@@ -144,7 +144,8 @@ echo SideNav::widget ( [
 		],
 		[ 
 			'label' => '请求处理',
-			'items' => [ 
+			'items' => [
+				/* 
 				[ 
 					'label' => 'TBD（Bootstrapping）',
 					'url' => 'index.php/guide/0401.html',
@@ -169,7 +170,7 @@ echo SideNav::widget ( [
 					'label' => 'TBD（Sessions and Cookies）',
 					'url' => 'index.php/guide/0405.html',
 					'active' => $r === "sessions-cookies" ? true : false 
-				],
+				],*/
 				[ 
 					'label' => 'URL 解析和生成',
 					'url' => 'index.php/guide/0406.html',
@@ -260,7 +261,7 @@ echo SideNav::widget ( [
 					'url' => 'index.php/guide/0604.html',
 					'active' => $r === "console-migrate" ? true : false 
 				],
-				[ 
+				/* [ 
 					'label' => 'TBD（Sphinx）',
 					'url' => 'index.php/guide/0605.html',
 					'active' => $r === "sphinx" ? true : false 
@@ -279,7 +280,7 @@ echo SideNav::widget ( [
 					'label' => 'TBD（ElasticSearch）',
 					'url' => 'index.php/guide/0608.html',
 					'active' => $r === "elasticsearch" ? true : false 
-				] 
+				] */ 
 			] 
 		],
 		[ 
@@ -295,7 +296,7 @@ echo SideNav::widget ( [
 					'url' => 'index.php/guide/0702.html',
 					'active' => $r === "validating-input" ? true : false 
 				],
-				[ 
+				/* [ 
 					'label' => 'TBD 文件上传',
 					'url' => 'index.php/guide/0703.html',
 					'active' => $r === "uploading-files" ? true : false 
@@ -304,13 +305,13 @@ echo SideNav::widget ( [
 					'label' => 'TBD 获取多模型数据',
 					'url' => 'index.php/guide/0704.html',
 					'active' => $r === "get-mult-data" ? true : false 
-				] 
+				] */ 
 			] 
 		],
 		[ 
 			'label' => '显示数据',
 			'items' => [ 
-				[ 
+				/* [ 
 					'label' => 'TBD 格式化数据',
 					'url' => 'index.php/guide/0801.html',
 					'active' => $r === "data-formatting" ? true : false 
@@ -324,7 +325,7 @@ echo SideNav::widget ( [
 					'label' => 'TBD 排序',
 					'url' => 'index.php/guide/0803.html',
 					'active' => $r === "sorting" ? true : false 
-				],
+				], */
 				[ 
 					'label' => '数据提供器',
 					'url' => 'index.php/guide/0804.html',
@@ -336,7 +337,7 @@ echo SideNav::widget ( [
 					'active' => $r === "data-widgets" ? true : false 
 				],
 				[ 
-					'label' => '使用脚本',
+					'label' => '使用客户端脚本',
 					'url' => 'index.php/guide/0806.html',
 					'active' => $r === "client-scripts" ? true : false 
 				],
@@ -360,7 +361,7 @@ echo SideNav::widget ( [
 					'url' => 'index.php/guide/0902.html',
 					'active' => $r === "authorization" ? true : false 
 				],
-				[ 
+				/* [ 
 					'label' => 'TBD 使用密码',
 					'url' => 'index.php/guide/0903.html',
 					'active' => $r === "security" ? true : false 
@@ -374,7 +375,7 @@ echo SideNav::widget ( [
 					'label' => 'TBD 最佳实践',
 					'url' => 'index.php/guide/0905.html',
 					'active' => $r === "best-practices" ? true : false 
-				] 
+				] */ 
 			] 
 		],
 		[ 
@@ -446,7 +447,7 @@ echo SideNav::widget ( [
 					'active' => $r === "rest-rate-limiting" ? true : false 
 				],
 				[ 
-					'label' => '版本化',
+					'label' => '版本控制',
 					'url' => 'index.php/guide/1108.html',
 					'active' => $r === "rest-versioning" ? true : false 
 				],
@@ -470,11 +471,11 @@ echo SideNav::widget ( [
 					'url' => 'index.php/guide/1202.html',
 					'active' => $r === "gii" ? true : false 
 				],
-				[ 
+				/* [ 
 					'label' => '生成 API 文档',
 					'url' => 'index.php/guide/1203.html',
 					'active' => $r === "tool-api-doc" ? true : false 
-				] 
+				] */ 
 			] 
 		],
 		[ 
@@ -569,7 +570,8 @@ echo SideNav::widget ( [
 		],
 		[ 
 			'label' => '小部件',
-			'items' => [ 
+			'items' => [
+				/* 
 				[ 
 					'label' => 'GridView（Demo）',
 					'url' => 'index.php/guide/1501.html',
@@ -610,6 +612,7 @@ echo SideNav::widget ( [
 					'url' => 'index.php/guide/1508.html',
 					'active' => $r === "widget-linksorter" ? true : false 
 				],
+				*/
 				[ 
 					'label' => 'Bootstrap 小部件',
 					'url' => 'index.php/guide/1509.html',
