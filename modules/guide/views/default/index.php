@@ -38,11 +38,11 @@ require "title.php";
 <p>&nbsp;</p>
 <h2>请求处理</h2>
 <ul>
-	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0401.html">Bootstrapping</a></li>
-	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0402.html">Routing</a></li>
-	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0403.html">Requests</a></li>
-	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0404.html">Responses</a></li>
-	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0405.html">Sessions and Cookies</a></li>
+	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0401.html"></a>Bootstrapping</li>
+	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0402.html"></a>Routing</li>
+	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0403.html"></a>Requests</li>
+	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0404.html"></a>Responses</li>
+	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0405.html"></a>Sessions and Cookies</li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0406.html">Url 解析和生成</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0407.html">错误处理（Error Handling）</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0408.html">日志（Logging）</a></li>
@@ -56,17 +56,17 @@ require "title.php";
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0504.html">行为（Behaviors）</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0505.html">配置（Configurations）</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0506.html">类自动加载（Autoloading）</a></li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="0507.html">别名（Alias）</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0507.html">别名（Alias）</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0508.html">服务定位器（Service Locator）</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0509.html">依赖注入容器（DI Container）</a></li>
 </ul>
 <p>&nbsp;</p>
 <h2>使用数据库</h2>
 <ul>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="0601.html">数据访问对象（DAO）</a> - 连接数据库，基础查询，事务和模式操作</li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="0602.html">查询生成器</a> - 使用一个简单的抽象层来查询数据库</li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="0603.html">活动记录（Active Record）</a> - Yii对active record ORM的实现，获取和操做记录并定义数据关联</li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="0604.html">数据库迁移（Database Migration）</a> - 使用数据库迁移对数据库进行版本管理</li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0601.html">数据访问对象（DAO）</a> - 连接数据库，基础查询，事务和模式操作</li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0602.html">查询生成器</a> - 使用一个简单的抽象层来查询数据库</li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0603.html">活动记录（Active Record）</a> - Yii对active record ORM的实现，获取和操做记录并定义数据关联</li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0604.html">数据库迁移（Database Migration）</a> - 使用数据库迁移对数据库进行版本管理</li>
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0605.html">Sphinx</a></li>
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0606.html">Redis</a></li>
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0607.html">MongoDB</a></li>
@@ -75,9 +75,9 @@ require "title.php";
 <p>&nbsp;</p>
 <h2>获取用户数据</h2>
 <ul>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="0701.html">创建表单</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0701.html">创建表单</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0702.html">输入验证</a></li>
-	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0703.html">文件上传</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0703.html">文件上传</a></li>
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0704.html">获取多模型数据</a></li>
 </ul>
 <p>&nbsp;</p>
@@ -86,17 +86,17 @@ require "title.php";
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0801.html">格式化数据</a></li>
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0802.html">分页</a></li>
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0803.html">排序</a></li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="0804.html">数据提供器</a></li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="0805.html">数据小部件</a></li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="0806.html">使用客户端脚本</a></li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="0807.html">主题（Theming）</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0804.html">数据提供器</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0805.html">数据小部件</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0806.html">使用客户端脚本</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0807.html">主题（Theming）</a></li>
 </ul>
 <p>&nbsp;</p>
 <h2>安全和访问控制</h2>
 <ul>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="0901.html">验证（Authentication）</a> - 识别用户</li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="0902.html">授权（Authorization）</a> - 访问控制和RBAC（角色访问控制）</li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="0903.html">使用密码</a> - 哈希和验证密码，加密</li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0901.html">验证（Authentication）</a> - 识别用户</li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0902.html">授权（Authorization）</a> - 访问控制和RBAC（角色访问控制）</li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0903.html">使用密码</a> - 哈希和验证密码，加密</li>
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0904.html">客户端认证</a></li>
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0905.html">最佳实践</a></li>
 </ul>
@@ -125,32 +125,32 @@ require "title.php";
 <p>&nbsp;</p>
 <h2>开发工具</h2>
 <ul>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="1201.html">调试工具栏以及调试器（Debug toolbar and debugger）</a></li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="1202.html">自动代码生成（Gii工具）</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="1201.html">调试工具栏以及调试器（Debug toolbar and debugger）</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="1202.html">自动代码生成（Gii工具）</a></li>
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="1203.html">生成 API 文档</a></li>
 </ul>
 <p>&nbsp;</p>
 <h2>测试</h2>
 <ul>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="1301.html">概述</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="1301.html">概述</a></li>
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="1302.html">测试环境设置</a></li>
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="1303.html">单元测试</a></li>
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="1304.html">功能测试</a></li>
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="1305.html">验收测试</a></li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="1306.html">测试固件</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="1306.html">测试固件</a></li>
 </ul>
 <p>&nbsp;</p>
 <h2>高级专题</h2>
 <ul>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="1401.html">高级应用模板</a></li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="1402.html">从头构建应用</a></li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="1403.html">控制台命令</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="1401.html">高级应用模板</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="1402.html">从头构建应用</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="1403.html">控制台命令</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="1404.html">核心验证器</a></li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="1405.html">国际化</a></li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="1406.html">收发邮件</a></li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="1407.html">性能优化</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="1405.html">国际化</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="1406.html">收发邮件</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="1407.html">性能优化</a></li>
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="1408.html">共享主机环境</a></li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i><a href="1409.html">模板引擎</a></li>
+	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="1409.html">模板引擎</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="1410.html">集成第三方代码</a></li>
 </ul>
 <p>&nbsp;</p>

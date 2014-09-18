@@ -1,59 +1,14 @@
-<h1 style="box-sizing: border-box; margin: 20px 0px 10px; font-size: 36px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 500; line-height: 1.1; color: #333333; font-style: normal; font-variant: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;">Overview</h1>
-<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;">
-	Yii applications are organized according to the
-	<span class="Apple-converted-space">&nbsp;</span>
-	<a style="box-sizing: border-box; color: #428bca; text-decoration: none; background: transparent;" href="http://wikipedia.org/wiki/Model-view-controller">model-view-controller (MVC)</a>
-	<span class="Apple-converted-space">&nbsp;</span>
-	design pattern.
-	<span class="Apple-converted-space">&nbsp;</span>
-	<a style="box-sizing: border-box; color: #428bca; text-decoration: none; background: transparent;" href="http://www.yiiframework.com/doc-2.0/guide-structure-models.html">Models</a>
-	<span class="Apple-converted-space">&nbsp;</span>
-	represent data, business logic and rules;
-	<a style="box-sizing: border-box; color: #428bca; text-decoration: none; background: transparent;" href="http://www.yiiframework.com/doc-2.0/guide-structure-views.html">views</a>
-	<span class="Apple-converted-space">&nbsp;</span>
-	are output representation of models; and
-	<span class="Apple-converted-space">&nbsp;</span>
-	<a style="box-sizing: border-box; color: #428bca; text-decoration: none; background: transparent;" href="http://www.yiiframework.com/doc-2.0/guide-structure-controllers.html">controllers</a>
-	<span class="Apple-converted-space">&nbsp;</span>
-	take input and convert it to commands for
-	<span class="Apple-converted-space">&nbsp;</span>
-	<a style="box-sizing: border-box; color: #428bca; text-decoration: none; background: transparent;" href="http://www.yiiframework.com/doc-2.0/guide-structure-models.html">models</a>
-	<span class="Apple-converted-space">&nbsp;</span>
-	and
-	<span class="Apple-converted-space">&nbsp;</span>
-	<a style="box-sizing: border-box; color: #428bca; text-decoration: none; background: transparent;" href="http://www.yiiframework.com/doc-2.0/guide-structure-views.html">views</a>
-	.
-</p>
-<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;">Besides MVC, Yii applications also have the following entities:</p>
-<ul style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;">
-	<li style="box-sizing: border-box;">
-		<a style="box-sizing: border-box; color: #428bca; text-decoration: none; background: transparent;" href="http://www.yiiframework.com/doc-2.0/guide-structure-entry-scripts.html">entry scripts</a>
-		: they are PHP scripts that are directly accessible by end users. They are responsible for starting a request handling cycle.
-	</li>
-	<li style="box-sizing: border-box;">
-		<a style="box-sizing: border-box; color: #428bca; text-decoration: none; background: transparent;" href="http://www.yiiframework.com/doc-2.0/guide-structure-applications.html">applications</a>
-		: they are globally accessible objects that manage application components and coordinate them to fulfill requests.
-	</li>
-	<li style="box-sizing: border-box;">
-		<a style="box-sizing: border-box; color: #428bca; text-decoration: none; background: transparent;" href="http://www.yiiframework.com/doc-2.0/guide-structure-application-components.html">application components</a>
-		: they are objects registered with applications and provide various services for fulfilling requests.
-	</li>
-	<li style="box-sizing: border-box;">
-		<a style="box-sizing: border-box; color: #428bca; text-decoration: none; background: transparent;" href="http://www.yiiframework.com/doc-2.0/guide-structure-modules.html">modules</a>
-		: they are self-contained packages that contain complete MVC by themselves. An application can be organized in terms of multiple modules.
-	</li>
-	<li style="box-sizing: border-box;">
-		<a style="box-sizing: border-box; color: #428bca; text-decoration: none; background: transparent;" href="http://www.yiiframework.com/doc-2.0/guide-structure-filters.html">filters</a>
-		: they represent code that need to be invoked before and after the actual handling of each request by controllers.
-	</li>
-	<li style="box-sizing: border-box;">
-		<a style="box-sizing: border-box; color: #428bca; text-decoration: none; background: transparent;" href="http://www.yiiframework.com/doc-2.0/guide-structure-widgets.html">widgets</a>
-		: they are objects that can be embedded in
-		<span class="Apple-converted-space">&nbsp;</span>
-		<a style="box-sizing: border-box; color: #428bca; text-decoration: none; background: transparent;" href="http://www.yiiframework.com/doc-2.0/guide-structure-views.html">views</a>
-		. They may contain controller logic and can be reused in different views.
-	</li>
+<h1>应用结构概述</h1>
+<p>Yii 应用遵循 模型-视图-控制器（model-view-controller (MVC)）设计模式。</p>
+<p>在 MVC 中，<a href="0307.html">Models</a>代表数据、业务逻辑，以及数据校验规则。<a href="0306.html">Views</a>包含用户界面元素，如文本、图片和表单。<a href="0305.html">Controllers</a>用来管理模型和视图之间的通信，处理动作和请求。</p>
+<p>除了 MVC，Yii 还包含以下应用结构：</p>
+<ul>
+	<li><a href="0302.html">入口脚本：</a>由终端用户直接访问的PHP脚本，负责开始一个请求处理周期。</li>
+	<li><a href="0303.html">应用：</a>全局管理应用程序组件，协调访问请求的对象。</li>
+	<li><a href="0304.html">应用组件：</a>应用程序注册对象和提供各种服务。</li>
+	<li><a href="0310.html">模块：</a>独立的软件单元，包含全部 MVC 组件，应用程序可以创建多个模块。</li>
+	<li><a href="0308.html">过滤器：</a>控制器实际处理每个请求之前或之后要被调用的动作。</li>
+	<li><a href="0309.html">小部件：</a>嵌入在<a href="0306.html"> 视图 </a>中的对象，包含控制器业务逻辑，并且可以在不同的视图中复用。</li>
 </ul>
-<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;">The following diagram shows the static structure of an application:</p>
-<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;">&nbsp;</p>
+<p>以下图表展示了一个应用的静态结构：</p>
 <img style="box-sizing: border-box; border: 0px; vertical-align: middle;" src="http://xlbd.u.qiniudn.com/application-structure.png" alt="应用结构" /></p>

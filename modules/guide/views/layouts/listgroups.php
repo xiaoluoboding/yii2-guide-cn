@@ -252,7 +252,7 @@ echo SideNav::widget ( [
 					'active' => $r === "query-builder" ? true : false 
 				],
 				[ 
-					'label' => 'Active Record',
+					'label' => '活动记录',
 					'url' => 'index.php/guide/0603.html',
 					'active' => $r === "active-record" ? true : false 
 				],
@@ -296,11 +296,12 @@ echo SideNav::widget ( [
 					'url' => 'index.php/guide/0702.html',
 					'active' => $r === "validating-input" ? true : false 
 				],
-				/* [ 
-					'label' => 'TBD 文件上传',
+				[ 
+					'label' => '文件上传',
 					'url' => 'index.php/guide/0703.html',
 					'active' => $r === "uploading-files" ? true : false 
 				],
+				/*
 				[ 
 					'label' => 'TBD 获取多模型数据',
 					'url' => 'index.php/guide/0704.html',

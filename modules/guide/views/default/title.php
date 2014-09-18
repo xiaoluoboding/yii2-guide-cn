@@ -5,8 +5,9 @@
 <blockquote>
 <p>提示：为了方便阅读，菜单使用以下符号标记文档完成度：</p>
 <ul>
-	<li style="list-style: none;"><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i>代表【已定稿】，同步官方文档完结。</li>
-	<li style="list-style: none;"><i class="glyphicon glyphicon-pencil" style="color: orange;">&nbsp;</i>代表【修订中】，文档处于编撰阶段，有待更新。</li>
-	<li style="list-style: none;"><i class="glyphicon glyphicon-paperclip">&nbsp;</i>代表【待定中】，暂时没有。</li>
+	<li style="list-style: none;"><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i>代表【已定稿】，同步官方文档翻译完成。</li>
+	<li style="list-style: none;"><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i>代表【修订中】，官方文档处于编撰阶段，有待更新。</li>
+	<li style="list-style: none;"><i class="glyphicon glyphicon-book" style="color: #428BCA">&nbsp;</i>代表【翻译中】，英文原版内容，正在翻译。</li>
+	<li style="list-style: none;"><i class="glyphicon glyphicon-paperclip">&nbsp;</i>代表【待定中】，没有内容。</li>
 </ul>
 </blockquote>
