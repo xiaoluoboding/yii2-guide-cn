@@ -186,4 +186,4 @@ class SiteController extends Controller
 </pre>
 <p>&nbsp;</p>
 <h2>See Also</h2>
-<p><a href="guidelist?id=13">控制台命令</a></p>
+<p><a href="1403.html">控制台命令</a></p>

@@ -6,7 +6,7 @@
 </ul>
 <p>&nbsp;</p>
 <h2>访问控制过滤器（ACF）</h2>
-<p>访问控制过滤器（Access Control Filter，简称 ACF）是一种简单的授权验证方法， 最适用于那些只需要一些基本访问控制的应用。正如其名，ACF 是一个动作过滤器， 可以定义为一个 <strong><a href="guidelist?id=8">行为（Behavior）</a></strong>被附加到一个控制器或者模块上。 ACF 会检查一系列的 [[yii\filters\AccessControl::rules|access rules]]，来确认当前用户是否有权限访问当前被请求的动作。</p>
+<p>访问控制过滤器（Access Control Filter，简称 ACF）是一种简单的授权验证方法， 最适用于那些只需要一些基本访问控制的应用。正如其名，ACF 是一个动作过滤器， 可以定义为一个 <strong><a href="0504.html">行为（Behavior）</a></strong>被附加到一个控制器或者模块上。 ACF 会检查一系列的 [[yii\filters\AccessControl::rules|access rules]]，来确认当前用户是否有权限访问当前被请求的动作。</p>
 <p>下面这段代码展示类如何使用 ACF，通过 [[yii\filters\AccessControl]] 组件实现：</p>
 <pre class="brush: php;toolbar: false">
 use yii\filters\AccessControl;

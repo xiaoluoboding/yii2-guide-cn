@@ -124,7 +124,7 @@ class MyBootstrapClass implements BootstrapInterface
 <p>&nbsp;</p>
 <h2>资源</h2>
 <ul class="task-list">
-<li>通过<a href="guidelist?id=34"> bundles </a>注册资源.</li>
+<li>通过<a href="0311.html"> bundles </a>注册资源.</li>
 </ul>
 <p>&nbsp;</p>
 <h2>事件</h2>

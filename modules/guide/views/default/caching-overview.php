@@ -3,8 +3,8 @@
 <p>缓存可以应用在 Web 应用程序的任何层级任何位置。在服务器端，在较的低层面，缓存可能用于存储基础数据，例如从数据库中取出的最新文章列表；在较高的层面，缓存可能用于存储一段或整个 Web 页面，例如最新文章的渲染结果。在客户端，HTTP 缓存可能用于将最近访问的页面内容存储到浏览器缓存中。</p>
 <p>Yii 支持如上所有缓存机制：</p>
 <ul>
-	<li><a href="guidelist?id=55">数据缓存</a></li>
-	<li><a href="guidelist?id=56">片段缓存</a></li>
-	<li><a href="guidelist?id=57">页面缓存</a></li>
-	<li><a href="guidelist?id=58">HTTP 缓存</a></li>
+	<li><a href="1002.html">数据缓存</a></li>
+	<li><a href="1003.html">片段缓存</a></li>
+	<li><a href="1004.html">页面缓存</a></li>
+	<li><a href="1005.html">HTTP 缓存</a></li>
 </ul>

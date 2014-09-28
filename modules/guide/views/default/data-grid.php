@@ -1,5 +1,5 @@
 <h1>数据表格（GridView）</h1>
-<p>数据表格或表格视图是 Yii 最强大的小部件之一。如需快速建立系统的管理后台部分，表格视图特别有用。表格视图从<a href="guidelist?id=18">数据提供器</a>获取数据并渲染每行，每行的列展现数据表的表单数据。</p>
+<p>数据表格或表格视图是 Yii 最强大的小部件之一。如需快速建立系统的管理后台部分，表格视图特别有用。表格视图从<a href="0804.html">数据提供器</a>获取数据并渲染每行，每行的列展现数据表的表单数据。</p>
 <p>数据表的一行代表单个数据项的数据，一列通常表示数据项的一个特性（有些列会对应特性或静态文本的复杂表达式）。</p>
 <p>表格视图支持数据项的排序和分页。排序和分页能以 AJAX 模式或标准页面请求两种方式实现。使用表格视图类（GridView）的好处之一是用户禁止 JavaScript 时，排序和分页能自动降级到标准页面请求且功能还能符合期望值。</p>
 <p>使用 GridView 的最简代码示例如下：</p>
@@ -127,7 +127,7 @@ echo GridView::widget([
 <p><a href="https://github.com/yiisoft/yii2/issues/1576">https://github.com/yiisoft/yii2/issues/1576</a></p>
 <p>&nbsp;</p>
 <h2>数据筛选</h2>
-<p>要筛选数据，表格视图需要一个<a href="guidelist?id=35">模型</a>从过滤的表单取得输入数据，并调整 dataprovider 的查询语句到期望的搜索条件。使用<a href="guidelist?id=2">active records</a>的惯例是建立一个搜索模型类继承活动记录类。然后用这个类定义搜索的验证规则和提供 <code>search()</code> 方法来返回 data provider 。</p>
+<p>要筛选数据，表格视图需要一个<a href="0307.html">模型</a>从过滤的表单取得输入数据，并调整 dataprovider 的查询语句到期望的搜索条件。使用<a href="0603.html">active records</a>的惯例是建立一个搜索模型类继承活动记录类。然后用这个类定义搜索的验证规则和提供 <code>search()</code> 方法来返回 data provider 。</p>
 <p>要给 <code>Post</code> 模型添加搜索能力，可以创建 <code>PostSearch</code> ，如下所示：</p>
 <pre class="brush: php;toolbar: false">
 &lt;?php
@@ -233,5 +233,5 @@ public function rules()
 </pre>
 <p>然后在 <code>search()</code> 方法只须以 <code>$query-&gt;andFilterWhere(['LIKE', 'author.name', $this-&gt;getAttribute('author.name')]);</code>添加另一个过滤条件。</p>
 <blockquote>
-<p>须知：更多有关 <code>joinWith</code> 和后台执行查询的相关信息请参考 <a href="guidelist?id=2#lazy-and-eager-loading">活动记录的延迟加载和即时加载</a>.</p>
+<p>须知：更多有关 <code>joinWith</code> 和后台执行查询的相关信息请参考 <a href="0603.html#lazy-and-eager-loading">活动记录的延迟加载和即时加载</a>.</p>
 </blockquote>

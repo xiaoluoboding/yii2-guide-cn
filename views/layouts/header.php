@@ -1,8 +1,6 @@
 <?php
-
- use yii\bootstrap\Nav;
- use yii\bootstrap\NavBar;
- 
+use yii\bootstrap\Nav;
+use yii\bootstrap\NavBar;
 ?>
 <?php
     NavBar::begin([

@@ -1,7 +1,7 @@
 <h1>安装Yii框架</h1>
 <p>你可以通过两种方式来安装Yii框架：</p>
 <ul>
-	<li>通过<a href="guidelist?id=11">Composer</a></li>
+	<li>通过<a href="2004.html">Composer</a></li>
 	<li>通过下载一个所需文件以及Yii框架文件的应用模板</li>
 </ul>
 <p>推荐前者方式，这样只需一条简单的命令就可以安装新的Yii框架了。</p>
@@ -26,7 +26,7 @@ curl -s http://getcomposer.org/installer | php
 <li><a href="https://github.com/yiisoft/yii2-app-basic" target="_blank">Basic Application Template</a>, 一个基础的前台应用；</li>
 <li><a href="https://github.com/yiisoft/yii2-app-advanced" target="_blank">Advanced Application Template</a>, 包含前后台，命令行资源，公共目录，以及环境配置、数据库连接。</li>
 </ul>
-<p>安装指南参考上述链接页面。关于这两个模板的详细介绍请参考：<a href="guidelist?id=6">基础应用模板</a> 和 <a href="guidelist?id=6">高级应用模板</a> 文档。</p>
+<p>安装指南参考上述链接页面。关于这两个模板的详细介绍请参考：<a href="2001.html">基础应用模板</a> 和 <a href="1401.html">高级应用模板</a> 文档。</p>
 <p>如果你不想使用模板，而想从头开始，请参考 <a href="#">自建应用程序结构</a> 文档。这种方法只推荐高级用户使用。</p>
 <p>&nbsp;</p>
 <h2>通过应用模板安装</h2>
@@ -46,7 +46,7 @@ curl -s http://getcomposer.org/installer | php
 <p>补充：如果你现在只是要试用 Yii 而不是将其部署到生产环境中，本小节可以跳过。</p>
 </blockquote>
 <p>通过上述方法安装的应用程序在 Windows，Max OS X，Linux 中的 <a href="http://httpd.apache.org/" target="_blank">Apache HTTP 服务器</a>或 <a href="http://nginx.org/" target="_blank">Nginx HTTP 服务器</a> 上都可以直接运行。</p>
-<p>在生产环境的服务器上，你可能会想配置服务器让应用程序可以通过 URL <code>http://www.example.com/index.php</code> 访问而不是 <code>http://www.example.com/basic/web/index.php</code>。这种配置需要将 Web 服务器的文档根目录指向 <code>basic/web</code> 目录。可能你还会想隐藏掉 URL 中的 <code>index.php</code>，具体细节在 <a href="guidelist?id=45">URL 管理</a> 一章中有介绍，你将学到如何配置 Apache 或 Nginx 服务器实现这些目标。</p>
+<p>在生产环境的服务器上，你可能会想配置服务器让应用程序可以通过 URL <code>http://www.example.com/index.php</code> 访问而不是 <code>http://www.example.com/basic/web/index.php</code>。这种配置需要将 Web 服务器的文档根目录指向 <code>basic/web</code> 目录。可能你还会想隐藏掉 URL 中的 <code>index.php</code>，具体细节在 <a href="0406.html">URL 管理</a> 一章中有介绍，你将学到如何配置 Apache 或 Nginx 服务器实现这些目标。</p>
 <blockquote>
 <p>补充：将 <code>basic/web</code> 设置为文档根目录，可以防止终端用户访问 <code>basic/web</code> 相邻目录中的私有应用代码和敏感数据文件。禁止对其他目录的访问是一个不错的安全改进。</p>
 <p>补充：如果你的应用程序将来要运行在共享虚拟主机环境中，没有修改其 Web 服务器配置的权限，你依然可以通过调整应用的结构来提升安全性。</p>

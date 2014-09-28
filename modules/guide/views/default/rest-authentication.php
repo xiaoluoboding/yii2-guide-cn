@@ -67,7 +67,7 @@ class User extends ActiveRecord implements IdentityInterface
 <p>如果认证失败，将返回HTTP状态码为401的应答，以及其它合适的头信息（比如对于HTTP Basic Auth 会返回一个 <code>WWW-Authenticate</code> 头）。</p>
 <p>&nbsp;</p>
 <h1>授权</h1>
-<p>在用户认证通过后，你可能想检查他是否有足够的权限来访问请求资源的这个动作。这个过程被称为鉴权 <em>authorization</em> ，在 <a href="guidelist?id=5">授权</a> 章节有过详细描述。</p>
+<p>在用户认证通过后，你可能想检查他是否有足够的权限来访问请求资源的这个动作。这个过程被称为鉴权 <em>authorization</em> ，在 <a href="0902.html">授权</a> 章节有过详细描述。</p>
 <p>你可以使用角色访问控制（Role-Based Access Control (RBAC)）组件来实现鉴权。</p>
 <p>为了简化访问权限检查，你还可以覆盖 [[yii\rest\Controller::checkAccess()]] 方法然后在需要鉴权的地方调用它。缺省情况，[[yii\rest\ActiveController]] 的内置动作将在运行时调用这个方法：</p>
 <pre class="brush: php;toolbar: false">

@@ -92,4 +92,4 @@ class SiteController extends Controller
 </ul>
 <p>&nbsp;</p>
 <h2>See Also</h2>
-<a href="guidelist?id=49#security">视图安全</a>
+<a href="0306.html#security">视图安全</a>

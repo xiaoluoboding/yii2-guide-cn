@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50617
 File Encoding         : 65001
 
-Date: 2014-09-17 19:51:51
+Date: 2014-09-21 15:47:41
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -30,7 +30,6 @@ CREATE TABLE `guidelist` (
 -- ----------------------------
 -- Records of guidelist
 -- ----------------------------
-INSERT INTO `guidelist` VALUES ('', '', '', '');
 INSERT INTO `guidelist` VALUES ('0001', 'index', '索引', '1');
 INSERT INTO `guidelist` VALUES ('0101', 'overview', 'Yii 概述', '1');
 INSERT INTO `guidelist` VALUES ('0102', 'upgrade-from-v1', '从Yii1.1.x升级', '1');
@@ -48,9 +47,9 @@ INSERT INTO `guidelist` VALUES ('0304', 'app-component', '应用组件', '1');
 INSERT INTO `guidelist` VALUES ('0305', 'controller', '控制器（Controller）', '1');
 INSERT INTO `guidelist` VALUES ('0306', 'view', '视图（View）', '1');
 INSERT INTO `guidelist` VALUES ('0307', 'model', '模型（Model）', '1');
-INSERT INTO `guidelist` VALUES ('0308', 'filters', '过滤器', '1');
-INSERT INTO `guidelist` VALUES ('0309', 'widgets', '小部件', '1');
-INSERT INTO `guidelist` VALUES ('0310', 'modules', '模块', '1');
+INSERT INTO `guidelist` VALUES ('0308', 'modules', '模块', '1');
+INSERT INTO `guidelist` VALUES ('0309', 'filters', '过滤器', '1');
+INSERT INTO `guidelist` VALUES ('0310', 'widgets', '小部件', '1');
 INSERT INTO `guidelist` VALUES ('0311', 'assets', '资源管理（Assets）', '1');
 INSERT INTO `guidelist` VALUES ('0312', 'extensions', '扩展', '1');
 INSERT INTO `guidelist` VALUES ('0406', 'url', 'URL管理', '1');
@@ -71,6 +70,7 @@ INSERT INTO `guidelist` VALUES ('0603', 'active-record', 'Active Record', '1');
 INSERT INTO `guidelist` VALUES ('0604', 'console-migrate', '数据库迁移', '1');
 INSERT INTO `guidelist` VALUES ('0701', 'form', '表单（Forms）', '1');
 INSERT INTO `guidelist` VALUES ('0702', 'validating-input', '输入验证', '1');
+INSERT INTO `guidelist` VALUES ('0703', 'uploading-files', '文件上传', '1');
 INSERT INTO `guidelist` VALUES ('0804', 'data-providers', '数据提供器', '1');
 INSERT INTO `guidelist` VALUES ('0805', 'data-widgets', '数据小部件', '1');
 INSERT INTO `guidelist` VALUES ('0806', 'client-scripts', '使用客户端脚本', '1');

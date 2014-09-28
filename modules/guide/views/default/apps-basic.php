@@ -3,7 +3,7 @@
 <p>模板包括4个页面：Home、About、contanct、Login。contact 页面有一个表单用来给用户向网站管理员提交询问信息。假设这个网站连接了一个邮件服务器并且管理员的邮箱已经被正确配置，这个表单将可以工作。登录页面也一样，允许对用户在访问授权内容前进行认证。</p>
 <p>&nbsp;</p>
 <h2>安装</h2>
-<p>你可以通过<a href="guidelist?id=11">Composer</a>来安装这个模板。从这里下载Composer：<a href="http://getcomposer.org/" target="_blank">http://getcomposer.org/</a>，或者在Linux/Unix/MacOS平台上运行如下命令：</p>
+<p>你可以通过<a href="2004.html">Composer</a>来安装这个模板。从这里下载Composer：<a href="http://getcomposer.org/" target="_blank">http://getcomposer.org/</a>，或者在Linux/Unix/MacOS平台上运行如下命令：</p>
 <pre class="brush: php;toolbar: false">
 curl -s http://getcomposer.org/installer | php
 </pre>
@@ -17,7 +17,7 @@ php composer.phar create-project --prefer-dist --stability=dev yiisoft/yii2-app-
 <p>这个基础应用程序没有拆分太多目录：</p>
 <ul>
 <li><code>assets</code> - 应用程序资源文件。</li>
-<li><code>AppAsset.php</code> - 定义应用程序资源比如 CSS, JavaScript 等等。可查阅 <a href="guidelist?id=34">Managing assets</a>&nbsp;获取更多细节。</li>
+<li><code>AppAsset.php</code> - 定义应用程序资源比如 CSS, JavaScript 等等。可查阅 <a href="0311.html">Managing assets</a>&nbsp;获取更多细节。</li>
 <li><code>commands</code> - 命令行控制器。</li>
 <li><code>config</code> - 配置。</li>
 <li><code>controllers</code> - 控制器。</li>
@@ -45,7 +45,7 @@ php composer.phar create-project --prefer-dist --stability=dev yiisoft/yii2-app-
 <li><code>web.php</code> - web 应用程序配置。</li>
 <li><code>web-test.php</code> - 功能测试时使用的 web 应用程序配置。</li>
 </ul>
-<p>所有这些文件都返回一个数组，用于配置相应应用程序的各个属性。查阅&nbsp;<a href="guidelist?id=12">Configuration</a> 指南部分来获取更多细节。</p>
+<p>所有这些文件都返回一个数组，用于配置相应应用程序的各个属性。查阅&nbsp;<a href="0505.html">Configuration</a> 指南部分来获取更多细节。</p>
 <h3>views目录</h3>
 <p>views 目录包含视图模板文件，在这个基础应用模板中有：</p>
 <pre class="brush: php;toolbar: false">

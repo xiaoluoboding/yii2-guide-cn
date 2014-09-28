@@ -1,7 +1,7 @@
 <h1>快速入门</h1>
 <p>Yii 提供了一整套用来简化实现RESTful风格的Web Service服务的API。 特别是，Yii支持以下关于RESTful风格的API：</p>
 <ul class="task-list">
-<li>支持 <a href="guidelist?id=2">Active Record</a> 类的通用API的快速原型;</li>
+<li>支持 <a href="0603.html">Active Record</a> 类的通用API的快速原型;</li>
 <li>涉及的响应格式（在默认情况下支持JSON 和 XML）;</li>
 <li>支持可选输出字段的 可定制对象序列化；</li>
 <li>适当的格式的数据采集和验证错误;</li>

@@ -1,7 +1,7 @@
 <h1>身份验证</h1>
 <p>身份验证是验证用户身份的动作,也是登录操作的基础。通常，身份验证使用一个标识符的组合（用户名或邮箱）以及密码。用户通过表单提交这些值,然后应用再与之前存储的资料进行比对(如用户注册时资料)。</p>
 <p>在Yii中，整个过程都是半自动地执行的，只需开发人员自己去实现 [[yii\web\IdentityInterface]] 接口，它是认证系统中最重要的类。通常情况下，<code>IdentityInterface</code> 是通过 <code>User</code> 模型来实现的。</p>
-<p>你可以在<a href="guidelist?id=3">高级应用模板</a>找到一个功能齐全的身份验证的例子。下面只列出了接口方法：</p>
+<p>你可以在<a href="1401.html">高级应用模板</a>找到一个功能齐全的身份验证的例子。下面只列出了接口方法：</p>
 <pre class="brush: php;toolbar: false">
 class User extends ActiveRecord implements IdentityInterface
 {

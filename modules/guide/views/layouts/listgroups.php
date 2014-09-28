@@ -115,20 +115,21 @@ echo SideNav::widget ( [
 					'url' => 'index.php/guide/0307.html',
 					'active' => $r === "model" ? true : false 
 				],
+		
+				[
+					'label' => '模块（Modules）',
+					'url' => 'index.php/guide/0308.html',
+					'active' => $r === "modules" ? true : false
+				],
 				[ 
 					'label' => '过滤器（Filters）',
-					'url' => 'index.php/guide/0308.html',
+					'url' => 'index.php/guide/0309.html',
 					'active' => $r === "filters" ? true : false 
 				],
 				[ 
 					'label' => '小部件（Widgets）',
-					'url' => 'index.php/guide/0309.html',
-					'active' => $r === "widgets" ? true : false 
-				],
-				[ 
-					'label' => '模块（Modules）',
 					'url' => 'index.php/guide/0310.html',
-					'active' => $r === "modules" ? true : false 
+					'active' => $r === "widgets" ? true : false 
 				],
 				[ 
 					'label' => '资源管理（Assets）',
@@ -552,11 +553,11 @@ echo SideNav::widget ( [
 					'url' => 'index.php/guide/1407.html',
 					'active' => $r === "performance" ? true : false 
 				],
-				[ 
+				/* [ 
 					'label' => '共享主机环境',
 					'url' => 'index.php/guide/1408.html',
 					'active' => $r === "shared-hosting" ? true : false 
-				],
+				], */
 				[ 
 					'label' => '模板引擎',
 					'url' => 'index.php/guide/1409.html',

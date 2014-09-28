@@ -1,5 +1,5 @@
 <h1>数据提供器</h1>
-<p>数据供应器通过 [[yii\data\DataProviderInterface]] 接口抽象了数据集（Data Set）用以处理分页及排序。 它可以被 <a href="guidelist?id=17">grids</a>，<a href="guidelist?id=19#listview">lists</a> 或其他<a href="guidelist?id=19">数据小部件</a>使用。</p>
+<p>数据供应器通过 [[yii\data\DataProviderInterface]] 接口抽象了数据集（Data Set）用以处理分页及排序。 它可以被 <a href="2003.html">grids</a>，<a href="0805.html#listview">lists</a> 或其他<a href="0805.html">数据小部件</a>使用。</p>
 <p>在 Yii 中，存在三种内建的数据提供器，分别是：</p>
 <ul>
 	<li>[[yii\data\ActiveDataProvider]]</li>

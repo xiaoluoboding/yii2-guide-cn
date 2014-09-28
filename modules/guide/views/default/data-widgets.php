@@ -1,7 +1,7 @@
 <h1>数据小部件</h1>
 <p>&nbsp;</p>
 <h2>表格视图（GridView）</h2>
-<p>[[yii\grid\GridView]] 是用来展示支持分页、排序功能的表格数据的强大界面组件。查阅 <a href="guidelist?id=17">数据表格</a> 章节获取更多信息。</p>
+<p>[[yii\grid\GridView]] 是用来展示支持分页、排序功能的表格数据的强大界面组件。查阅 <a href="2003.html">数据表格</a> 章节获取更多信息。</p>
 <p>&nbsp;</p>
 <h2>列表视图（ListView）<a href="#listview" name="listview"></a></h2>
 <p>&nbsp;</p>

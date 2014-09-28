@@ -61,7 +61,7 @@ $customer->save();
 </pre>
 <p>&nbsp;</p>
 <h2>建立数据库连接</h2>
-<p>AR 用一个 [[yii\db\Connection|DB connection]] 对象与数据库交换数据。 默认的，它使用 <code>db</code> 组件作为其连接对象。详见<a href="guidelist?id=21">数据库基础</a>章节， 你可以在应用程序配置文件中设置下 <code>db</code> 组件，就像这样，</p>
+<p>AR 用一个 [[yii\db\Connection|DB connection]] 对象与数据库交换数据。 默认的，它使用 <code>db</code> 组件作为其连接对象。详见<a href="0601.html">数据库基础</a>章节， 你可以在应用程序配置文件中设置下 <code>db</code> 组件，就像这样，</p>
 <pre class="brush: php;toolbar: false">
 return [
     'components' => [
@@ -151,7 +151,7 @@ $customers = Customer::find()
 // $customers 的每个元素都是键值对数组
 </pre>
 <h3>批量获取数据</h3>
-<p>在 <a href="guidelist?id=38">Query Builder（查询生成器）</a> 里，我们已经解释了当需要从数据库中查询大量数据时，你可以用 <em>batch query（批量查询）</em>来限制内存的占用。 你可能也想在 AR 里使用相同的技巧，比如：</p>
+<p>在 <a href="0602.html">Query Builder（查询生成器）</a> 里，我们已经解释了当需要从数据库中查询大量数据时，你可以用 <em>batch query（批量查询）</em>来限制内存的占用。 你可能也想在 AR 里使用相同的技巧，比如：</p>
 <pre class="brush: php;toolbar: false">
 // 一次提取 10 个客户信息
 foreach (Customer::find()->batch(10) as $customers) {
@@ -207,7 +207,7 @@ Customer::updateAllCounters(['age' => 1]);
 <p>须知：<code>save()</code> 方法会调用 <code>insert()</code> 和 <code>update()</code> 中的一个， 用哪个取决于当前 AR 对象是不是新对象（在函数内部，他会检查 [[yii\db\ActiveRecord::isNewRecord]] 的值）。 若 AR 对象是由 <code>new</code> 操作符 初始化出来的，<code>save()</code> 方法会在表里<em>插入</em>一条数据； 如果一个 AR 是由 <code>find()</code> 方法获取来的， 则 <code>save()</code> 会<em>更新</em>表里的对应行记录。</p>
 </blockquote>
 <h3>数据输入与有效性验证</h3>
-<p>由于AR继承自[[yii\base\Model]]，所以它同样也支持<a href="guidelist?id=35">Model</a>的 数据输入、验证等特性。例如，你可以声明一个rules方法用来覆盖掉[[yii\base\Model::rules()|rules()]]里的；你 也可以给AR实例批量赋值；你也可以通过调用[[yii\base\Model::validate()|validate()]]执行数据验证。</p>
+<p>由于AR继承自[[yii\base\Model]]，所以它同样也支持<a href="0307.html">Model</a>的 数据输入、验证等特性。例如，你可以声明一个rules方法用来覆盖掉[[yii\base\Model::rules()|rules()]]里的；你 也可以给AR实例批量赋值；你也可以通过调用[[yii\base\Model::validate()|validate()]]执行数据验证。</p>
 <p>当你调用 <code>save()</code>、<code>insert()</code>、<code>update()</code> 这三个方法时，会自动调用[[yii\base\Model::validate()|validate()]]方法。如果验证失败，数据将不会保存进数据库。</p>
 <p>下面的例子演示了如何使用AR 获取/验证用户输入的数据并将他们保存进数据库：</p>
 <pre class="brush: php;toolbar: false">
@@ -764,7 +764,7 @@ class ProductController extends \yii\web\Controller
 <p>&nbsp;</p>
 <h2>See Also</h2>
 <ul>
-<li><a href="guidelist?id=35">Model</a></li>
+<li><a href="0307.html">Model</a></li>
 <li><a href="http://www.yiiframework.com/doc-2.0/yii-db-activerecord.html" target="_blank">yii\db\ActiveRecord</a></li>
 </ul>
 

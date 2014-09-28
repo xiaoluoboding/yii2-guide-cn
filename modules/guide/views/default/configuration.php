@@ -1,5 +1,5 @@
 <h1>配置（Configuration ）</h1>
-<p>在 Yii 中，创建新对象和初始化已存在对象时广泛使用配置。配置通常包含被创建对象的类名和一组将要赋值给对象<a href="guidelist?id=53">属性</a>的初始值。还可能包含一组将被附加到对象<a href="guidelist?id=24">事件</a>上的句柄。和一组将被附加到对象上的<a href="guidelist?id=8">行为</a>。</p>
+<p>在 Yii 中，创建新对象和初始化已存在对象时广泛使用配置。配置通常包含被创建对象的类名和一组将要赋值给对象<a href="0502.html">属性</a>的初始值。还可能包含一组将被附加到对象<a href="0503.html">事件</a>上的句柄。和一组将被附加到对象上的<a href="0504.html">行为</a>。</p>
 <p>以下代码中的配置被用来创建并初始化一个数据库连接：</p>
 <pre class="brush: php;toolbar: false">
 $config = [
@@ -30,9 +30,9 @@ $db = Yii::createObject($config);
 <p>其中</p>
 <ul class="task-list">
 <li><code>class</code> 元素指定了将要创建的对象的完全限定类名。</li>
-<li><code>propertyName</code> 元素指定了对象属性的初始值。键名是属性名，值是该属性对应的初始值。只有公共成员变量以及通过 getter/setter 定义的<a href="guidelist?id=53">属性</a>可以被配置。</li>
-<li><code>on eventName</code> 元素指定了附加到对象<a href="guidelist?id=24">事件</a>上的句柄是什么。请注意，数组的键名由 <code>on</code> 前缀加事件名组成。请参考<a href="guidelist?id=24">事件</a>章节了解事件句柄格式。</li>
-<li><code>as behaviorName</code> 元素指定了附加到对象的<a href="guidelist?id=8">行为</a>。请注意，数组的键名由 <code>as</code> 前缀加行为名组成。<code>$behaviorConfig</code> 表示创建行为的配置信息，格式与我们现在总体叙述的配置格式一样。</li>
+<li><code>propertyName</code> 元素指定了对象属性的初始值。键名是属性名，值是该属性对应的初始值。只有公共成员变量以及通过 getter/setter 定义的<a href="0502.html">属性</a>可以被配置。</li>
+<li><code>on eventName</code> 元素指定了附加到对象<a href="0503.html">事件</a>上的句柄是什么。请注意，数组的键名由 <code>on</code> 前缀加事件名组成。请参考<a href="0503.html">事件</a>章节了解事件句柄格式。</li>
+<li><code>as behaviorName</code> 元素指定了附加到对象的<a href="0504.html">行为</a>。请注意，数组的键名由 <code>as</code> 前缀加行为名组成。<code>$behaviorConfig</code> 表示创建行为的配置信息，格式与我们现在总体叙述的配置格式一样。</li>
 </ul>
 <p>下面是一个配置了初始化属性值，事件句柄和行为的示例：</p>
 <pre class="brush: php;toolbar: false">[

@@ -45,7 +45,7 @@ return [
 <p>注意<code> cache </code>应用组件要配置好。</p>
 <h3>合并和最小化资源</h3>
 <p>合并和最小化资源文件，通常指 JavaScript 和 CSS ,是可行的，为的是稍微提高页面加载速度，以此为应用的终端用户提供更好的体验。</p>
-<p>要学习如何实现这一目标，请参考本指南的<a href="guidelist?id=34">资源管理</a>部分。</p>
+<p>要学习如何实现这一目标，请参考本指南的<a href="0311.html">资源管理</a>部分。</p>
 <h3>给会话（sessions）使用更好的存储</h3>
 <p>默认 PHP 使用文件处理会话。开发和小项目是 OK 的，但在处理同时发生多个请求时最好转用其他存储器如数据库。配置应用的 <code>protected/config/main.php</code> 来实现：</p>
 <pre class="brush: php;toolbar:false;">
@@ -93,7 +93,7 @@ public function behaviors()
 </pre>
 <p>以上代码使用 <code>etagSeed</code> 或 <code>lastModified</code> 其一即可。两者都执行没有必要。我们的目标是确定内容修改在某种程度上是否比获取和渲染内容更少消耗。 <code>lastModified</code> 返回最新修改内容的 unix 时间戳，而 <code>etagSeed</code> 返回一个字符串，该字符串用于生成 <code>ETag</code> header 值。</p>
 <h3>数据库优化</h3>
-<p>从数据库获取数据通常是 Web 应用主要的性能瓶颈。尽管使用<a href="guidelist?id=10">缓存</a>能缓解性能损失，但它不能完全解决性能问题。当数据库包括大量数据和缓存数据无效时，如果没有良好的数据库和查询设计，获取最新数据将是非常昂贵的。</p>
+<p>从数据库获取数据通常是 Web 应用主要的性能瓶颈。尽管使用<a href="1001.html">缓存</a>能缓解性能损失，但它不能完全解决性能问题。当数据库包括大量数据和缓存数据无效时，如果没有良好的数据库和查询设计，获取最新数据将是非常昂贵的。</p>
 <p>在数据库设计索引是明智的。索引能使 SELECT 查询更快，但它会降低INSERT, UPDATE 和 DELETE 的速度。</p>
 <p>对于复杂查询，推荐为它创建数据库视图而不是在 PHP 代码嵌入复杂查询语句并让 DBMS 重复解析。</p>
 <p>不要过度使用活动记录。尽管活动记录善于以面向对象的风格来建立数据模型，但它实际上会降低性能，因为活动记录必须建立一个或多个对象来代表查询结果的每一行。对于数据密集型应用，使用 DAO 或底层使用数据库 API 是更好的选择。</p>
@@ -121,7 +121,7 @@ class PostController extends Controller
 <h3>如果没有东西能帮助</h3>
 <p>如果没有东西提供帮助，永远不要假设什么可以解决性能问题。相反在改变任何东西前要持续分析代码。以下工具可能是有用的：</p>
 <ul class="task-list">
-<li><a href="guidelist?id=22">Yii 调试工具栏和调试器</a></li>
+<li><a href="1201.html">Yii 调试工具栏和调试器</a></li>
 <li><a href="http://xdebug.org/docs/profiler" target="_blank">XDebug 分析器</a></li>
 <li><a href="http://www.php.net/manual/en/book.xhprof.php" target="_blank">XHProf</a></li>
 </ul>

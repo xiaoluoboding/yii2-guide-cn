@@ -161,7 +161,7 @@ $db->beginCache($duration, $dependency);
 $db->endCache();
 </pre>
 <p>如你所见，<code>beginCache()</code> 和 <code>endCache()</code> 中间的任何查询结果都会被缓存起来。如果缓存中找到了同样查询的结果，则查询会被跳过，直接从缓存中提取结果。</p>
-<p>查询缓存可以用于 <a href="guidelist?id=2">ActiveRecord</a> 和 DAO。</p>
+<p>查询缓存可以用于 <a href="0603.html">ActiveRecord</a> 和 DAO。</p>
 <blockquote>
 <p>Info: 有些 DBMS （例如：<a href="http://dev.mysql.com/doc/refman/5.1/en/query-cache.html" target="_blank">MySQL</a>）也支持数据库服务器端的查询缓存。你可以选择使用任一查询缓存机制。上文所述的查询缓存的好处在于你可以指定更灵活的缓存依赖因此可能更加高效。</p>
 </blockquote>

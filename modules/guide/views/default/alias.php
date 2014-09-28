@@ -16,7 +16,7 @@ Yii::setAlias('@bar', 'http://www.example.com');
 <p>可以通过在一个别名后面加斜杠 <code>/</code> 和一至多个路径分段生成新别名（无需调用 [[Yii::setAlias()]]）。我们把通过 [[Yii::setAlias()]] 定义的别名称为<strong>根别名</strong>，而用他们衍生出去的别名成为<strong>衍生别名</strong>。例如，<code>@foo</code> 就是根别名，而 <code>@foo/bar/file.php</code> 是一个衍生别名。</p>
 <p>你还可以用别名去定义新别名（根别名与衍生别名均可）：</p>
 <pre class="brush: php;toolbar: false">Yii::setAlias('@foobar', '@foo/bar');</pre>
-<p>根别名通常在引导阶段定义。比如你可以在入口脚本里调用 [[Yii::setAlias()]]。为了方便起见，应用提供了一个名为 <code>aliases</code> 的可写属性，你可以在应用<a href="guidelist?id=12">配置</a>中设置它，就像这样：</p>
+<p>根别名通常在引导阶段定义。比如你可以在入口脚本里调用 [[Yii::setAlias()]]。为了方便起见，应用提供了一个名为 <code>aliases</code> 的可写属性，你可以在应用<a href="0505.html">配置</a>中设置它，就像这样：</p>
 <pre class="brush: php;toolbar: false">
 return [
     // ...
@@ -71,7 +71,7 @@ $cache = new FileCache([
 <p><code>@yii</code> 别名是在入口脚本里包含 <code>Yii.php</code> 文件时定义的，其他的别名都是在配置应用的时候，于应用的构造方法内定义的。</p>
 <p>&nbsp;</p>
 <h2>扩展的别名</h2>
-<p>每一个通过 Composer 安装的 <a href="guidelist?id=25">扩展</a> 都自动添加了一个别名。该别名会以该扩展在 <code>composer.json</code> 文件中所声明的根命名空间为名，且他直接代指该包的根目录。例如，如果你安装有 <code>yiisoft/yii2-jui</code> 扩展，会自动得到 <code>@yii/jui</code> 别名，它定义于引导启动阶段：</p>
+<p>每一个通过 Composer 安装的 <a href="0312.html">扩展</a> 都自动添加了一个别名。该别名会以该扩展在 <code>composer.json</code> 文件中所声明的根命名空间为名，且他直接代指该包的根目录。例如，如果你安装有 <code>yiisoft/yii2-jui</code> 扩展，会自动得到 <code>@yii/jui</code> 别名，它定义于引导启动阶段：</p>
 <pre class="brush: php;toolbar: false">
 Yii::setAlias('@yii/jui', 'VendorPath/yiisoft/yii2-jui');
 </pre>

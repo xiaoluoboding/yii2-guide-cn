@@ -4,7 +4,7 @@
 <h2>使用行为</h2>
 <p>行为可以被附属到任何从组件 [[yii\base\Component]] 派生的类中，通过代码或者应用程序配置。</p>
 <h3>通过 <code>behaviors</code> 方法附属行为</h3>
-<p>为了把一个行为附属到一个类中，你可以实现这个component的 <code>behaviors</code> 方法。作为示例，Yii提供了 [[yii\behaviors\TimestampBehavior]] 行为，用于在保存或更新 <a href="guidelist?id=2">Active Record </a>模型时自动更新时间相关字段：</p>
+<p>为了把一个行为附属到一个类中，你可以实现这个component的 <code>behaviors</code> 方法。作为示例，Yii提供了 [[yii\behaviors\TimestampBehavior]] 行为，用于在保存或更新 <a href="0603.html">Active Record </a>模型时自动更新时间相关字段：</p>
 <pre class="brush: php;toolbar: false">
 use yii\behaviors\TimestampBehavior;
 
@@ -170,7 +170,7 @@ class MyBehavior extends Behavior
 <li>对象或类名和方法名的数组，如 <code>[$object, 'methodName']</code>；</li>
 <li>匿名方法。</li>
 </ul>
-<p>处理器的格式如下，其中 <code>$event</code> 指向事件参数。关于事件的更多细节请参考<a href="guidelist?id=24">事件</a>：</p>
+<p>处理器的格式如下，其中 <code>$event</code> 指向事件参数。关于事件的更多细节请参考<a href="0503.html">事件</a>：</p>
 <pre class="brush: php;toolbar: false">
 function ($event) {
 }

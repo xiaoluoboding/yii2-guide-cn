@@ -2,8 +2,8 @@
 <p>&nbsp;</p>
 <h2>组件和对象</h2>
 <p>Yii框架的类通常都是从两个基础类扩展而来：[[yii\base\Object]] 或 [[yii\base\Component]]。这两个类为扩展类自动提供了很多有用的功能。</p>
-<p>Object 类提供配置和属性功能（ configuration and property feature）。Component 类扩展自 Object 并添加了事件处理和行为特性（<a href="guidelist?id-24">event handling</a> 和 <a href="guidelist?id=8">behaviors）</a>。</p>
-<p>Object 通常用来创建那些表示基本数据结构的类， 而 <a href="guidelist?id=52">组件（Component）</a> 被用于应用程序组件以及具备更高逻辑的类。</p>
+<p>Object 类提供配置和属性功能（ configuration and property feature）。Component 类扩展自 Object 并添加了事件处理和行为特性（<a href="1109.html">event handling</a> 和 <a href="0504.html">behaviors）</a>。</p>
+<p>Object 通常用来创建那些表示基本数据结构的类， 而 <a href="0501.html">组件（Component）</a> 被用于应用程序组件以及具备更高逻辑的类。</p>
 <p>&nbsp;</p>
 <h2>对象配置</h2>
 <p>Object 类引入了一个配置对象的统一方法。任何 Object 类的继承者在需要的时候都应该使用如下的方法来声明其构造函数，这样才能被正确的配置：</p>

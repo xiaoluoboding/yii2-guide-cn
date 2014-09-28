@@ -93,7 +93,7 @@ public function fields()
 <p>你可能想知道当动作返回对象或对象集合时，究竟谁执行了对象到数组的转换呢? 答案是 [[yii\rest\Controller::$serializer]] 的 [[afterAction()]] 方法。缺省情况下，[[yii\rest\Serializer]] 可以识别从&nbsp;yii\base\Model&nbsp;扩展的资源对象以及实现了接口 [[yii\data\DataProviderInterface]] 的集合（collection）对象，并对它们做序列化。这个序列化器（serializer）将调用这些对象的&nbsp;<code>toArray()</code> 方法并传递&nbsp;<code>fields</code> 和 <code>expand</code>&nbsp;用户参数给这个方法。如果有嵌入对象，它们将被递归转换为数组。</p>
 <p>如果你所有的资源对象都是 [[yii\base\Model]] 类或其子类如 [[yii\db\ActiveRecord]]，而且你仅使用 [[yii\data\DataProviderInterface]] 作为资源集合，缺省格式化功能可以很好的工作。但是，如果你想引入一些不是从 [[yii\base\Model]] 派生的新的资源类，又或者你想使用一些新的集合类，你将需要定制化这个序列化类（serializer） 并配置 [[yii\rest\Controller::$serializer]] 来使用它。新的资源类可以使用特征 [[yii\base\ArrayableTrait]] 来支持可选字段输出。</p>
 <h3>分页<a href="#pagination" name="pagination"></a></h3>
-<p>对于资源集合的 API 终端，如果你使用&nbsp;<a href="guidelist?id=18">数据提供器</a>&nbsp;来处理应答数据，分页（Pagination）是一个既有（out-of-box）功能。甚至，通过查询参数&nbsp;<code>page</code> 和 <code>per-page</code>，一个API使用者可以指定数据页以及每页数据的数目。相应的应答将在HTTP头中包含这个分页信息（请参考本章第一个例子）：</p>
+<p>对于资源集合的 API 终端，如果你使用&nbsp;<a href="0804.html">数据提供器</a>&nbsp;来处理应答数据，分页（Pagination）是一个既有（out-of-box）功能。甚至，通过查询参数&nbsp;<code>page</code> 和 <code>per-page</code>，一个API使用者可以指定数据页以及每页数据的数目。相应的应答将在HTTP头中包含这个分页信息（请参考本章第一个例子）：</p>
 <ul>
 <li><code>X-Pagination-Total-Count</code>: 数据项总数；</li>
 <li><code>X-Pagination-Page-Count</code>: 页面总数；</li>
@@ -314,7 +314,7 @@ class User extends ActiveRecord implements IdentityInterface
 <p>如果认证失败，将返回HTTP状态码为401的应答，以及其它合适的头信息（比如对于HTTP Basic Auth 会返回一个 <code>WWW-Authenticate</code> 头）。</p>
 <p>&nbsp;</p>
 <h2>授权</h2>
-<p>在用户认证通过后，你可能想检查他是否有足够的权限来访问请求资源的这个动作。这个过程被称为鉴权 <em>authorization</em> ，在 <a href="guidelist?id=5">授权</a> 章节有过详细描述。</p>
+<p>在用户认证通过后，你可能想检查他是否有足够的权限来访问请求资源的这个动作。这个过程被称为鉴权 <em>authorization</em> ，在 <a href="0902.html">授权</a> 章节有过详细描述。</p>
 <p>你可以使用角色访问控制（Role-Based Access Control (RBAC)）组件来实现鉴权。</p>
 <p>为了简化访问权限检查，你还可以覆盖 [[yii\rest\Controller::checkAccess()]] 方法然后在需要鉴权的地方调用它。缺省情况，[[yii\rest\ActiveController]] 的内置动作将在运行时调用这个方法：</p>
 <pre class="brush: php;toolbar: false">

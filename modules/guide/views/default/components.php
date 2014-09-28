@@ -1,11 +1,11 @@
 <h1>组件（Component）</h1>
 <p>组件是 Yii 应用的主要基石。是 [[yii\base\Component]] 类或其子类的实例。三个用以区分它和其它类的主要功能有：</p>
 <ul class="task-list">
-<li><a href="guidelist?id=53">属性（Property）</a></li>
-<li><a href="guidelist?id=24">事件（Event）</a></li>
-<li><a href="guidelist?id=8">行为（Behavior）</a></li>
+<li><a href="0502.html">属性（Property）</a></li>
+<li><a href="0501.html">事件（Event）</a></li>
+<li><a href="0504.html">行为（Behavior）</a></li>
 </ul>
-<p>或单独使用，或彼此配合，这些功能的应用让 Yii 的类变得更加灵活和易用。以小部件 [[yii\jui\DatePicker|日期选择器]] 来举例，这是个方便你在 <a href="#">视图</a> 中生成一个交互式日期选择器的 UI 组件：</p>
+<p>或单独使用，或彼此配合，这些功能的应用让 Yii 的类变得更加灵活和易用。以小部件 [[yii\jui\DatePicker|日期选择器]] 来举例，这是个方便你在 <a href="0306.html">视图</a> 中生成一个交互式日期选择器的 UI 组件：</p>
 <pre class="brush: php;toolbar: false">
 
 use yii\jui\DatePicker;
@@ -20,7 +20,7 @@ echo DatePicker::widget([
 </pre>
 <p>&nbsp;</p>
 <p>这个小部件继承自 [[yii\base\Component]]，它的各项属性改写起来会很容易。</p>
-<p>正是因为组件功能的强大，他们比常规的对象（Object）稍微重量级一点，因为他们要使用额外的内存和 CPU 时间来处理 <a href="guidelist?id=24">事件</a> 和 <a href="guidelist?id=8">行为</a> 。如果你不需要这两项功能，可以继承 [[yii\base\Object]] 而不是 [[yii\base\Component]]。这样组件可以像普通 PHP 对象一样高效，同时还支持<a href="guidelist?id=53">属性（Property）</a>功能。</p>
+<p>正是因为组件功能的强大，他们比常规的对象（Object）稍微重量级一点，因为他们要使用额外的内存和 CPU 时间来处理 <a href="0503.html">事件</a> 和 <a href="0504.html">行为</a> 。如果你不需要这两项功能，可以继承 [[yii\base\Object]] 而不是 [[yii\base\Component]]。这样组件可以像普通 PHP 对象一样高效，同时还支持<a href="53">属性（Property）</a>功能。</p>
 <p>当继承 [[yii\base\Component]] 或 [[yii\base\Object]] 时，推荐你使用如下的编码风格：</p>
 <ul class="task-list">
 <li>若你需要重写构造方法（Constructor），传入 <code>$config</code> 作为构造器方法<strong>最后一个</strong>参数，然后把它传递给父类的构造方法。</li>

@@ -23,15 +23,15 @@ require "title.php";
 <h2>应用结构</h2>
 <ul>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0301.html">结构概述</a></li>
-	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0302.html">入口脚本</a></li>
-	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0303.html">应用（Applications）</a></li>
-	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0304.html">应用组件</a></li>
+	<li><i class="glyphicon glyphicon-book" style="color: #428BCA">&nbsp;</i><a href="0302.html">入口脚本</a></li>
+	<li><i class="glyphicon glyphicon-book" style="color: #428BCA">&nbsp;</i><a href="0303.html">应用（Applications）</a></li>
+	<li><i class="glyphicon glyphicon-book" style="color: #428BCA">&nbsp;</i><a href="0304.html">应用组件</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0305.html">控制器（Controllers）</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0306.html">视图（Views）</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0307.html">模型（Models）</a></li>
-	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0308.html">模块（Modules）</a></li>
-	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0309.html">过滤器（Filters）</a></li>
-	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0310.html">小部件（Widgets）</a></li>
+	<li><i class="glyphicon glyphicon-book" style="color: #428BCA">&nbsp;</i><a href="0308.html">模块（Modules）</a></li>
+	<li><i class="glyphicon glyphicon-book" style="color: #428BCA">&nbsp;</i><a href="0309.html">过滤器（Filters）</a></li>
+	<li><i class="glyphicon glyphicon-book" style="color: #428BCA">&nbsp;</i><a href="0310.html">小部件（Widgets）</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0311.html">资源管理（Assets）</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0312.html">扩展（Extensions）</a></li>
 </ul>
@@ -77,7 +77,7 @@ require "title.php";
 <ul>
 	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0701.html">创建表单</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="0702.html">输入验证</a></li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0703.html">文件上传</a></li>
+	<li><i class="glyphicon glyphicon-book" style="color: #428BCA">&nbsp;</i><a href="0703.html">文件上传</a></li>
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0704.html">获取多模型数据</a></li>
 </ul>
 <p>&nbsp;</p>
@@ -88,7 +88,7 @@ require "title.php";
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="0803.html">排序</a></li>
 	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0804.html">数据提供器</a></li>
 	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0805.html">数据小部件</a></li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0806.html">使用客户端脚本</a></li>
+	<li><i class="glyphicon glyphicon-book" style="color: #428BCA">&nbsp;</i><a href="0806.html">使用客户端脚本</a></li>
 	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="0807.html">主题（Theming）</a></li>
 </ul>
 <p>&nbsp;</p>
@@ -143,11 +143,11 @@ require "title.php";
 <h2>高级专题</h2>
 <ul>
 	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="1401.html">高级应用模板</a></li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="1402.html">从头构建应用</a></li>
+	<li><i class="glyphicon glyphicon-book" style="color: #428BCA">&nbsp;</i><a href="1402.html">从头构建应用</a></li>
 	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="1403.html">控制台命令</a></li>
 	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="1404.html">核心验证器</a></li>
 	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="1405.html">国际化</a></li>
-	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="1406.html">收发邮件</a></li>
+	<li><i class="glyphicon glyphicon-book" style="color: #428BCA">&nbsp;</i><a href="1406.html">收发邮件</a></li>
 	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="1407.html">性能优化</a></li>
 	<li><i class="glyphicon glyphicon-paperclip">&nbsp;</i><a href="1408.html">共享主机环境</a></li>
 	<li><i class="glyphicon glyphicon-pencil" style="color: #dd0000;">&nbsp;</i><a href="1409.html">模板引擎</a></li>
@@ -164,8 +164,8 @@ require "title.php";
 	<li><a href="1506.html"></a>菜单 - Menu（Demo）</li>
 	<li><a href="1507.html"></a>分页 - LinkPager（Demo）</li>
 	<li><a href="1508.html"></a>排序 - LinkSorter（Demo）</li>
-	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="1509.html">Bootstrap 小部件</a></li>
-	<li><i class="glyphicon glyphicon-ok" style="color: green">&nbsp;</i><a href="1510.html">Jquery UI 小部件</a></li>
+	<li><i class="glyphicon glyphicon-book" style="color: #428BCA">&nbsp;</i><a href="1509.html">Bootstrap 小部件</a></li>
+	<li><i class="glyphicon glyphicon-book" style="color: #428BCA">&nbsp;</i><a href="1510.html">Jquery UI 小部件</a></li>
 </ul>
 <p>&nbsp;</p>
 <h2>帮助类</h2>

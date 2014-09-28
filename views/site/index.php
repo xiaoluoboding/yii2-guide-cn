@@ -3,6 +3,7 @@
  * @var yii\web\View $this
  */
 $this->title = 'Yii框架2.0中文开发文档，Yii2中文权威指南，Yii2中文实用教程';
+require (__DIR__ . '\count.php');
 ?>
 <div class="site-index">
 
@@ -11,7 +12,7 @@ $this->title = 'Yii框架2.0中文开发文档，Yii2中文权威指南，Yii2�
 
         <p class="lead"><h2>快捷、安全、专业的PHP框架，让web开发更迅速、简单。</h2></p>
 		<p>&nbsp;</p>
-        <p><a class="btn btn-lg btn-danger btn-shadow" href="http://yii2.xlbd.net">Yii2.0中文权威指南</a></p>
+        <p><a class="btn btn-lg btn-danger btn-shadow" href="http://yii2.xlbd.net/web/index.php/guide/0001.html">Yii2.0中文权威指南</a></p>
     </div>
 	
 </div>

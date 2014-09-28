@@ -14,7 +14,7 @@ curl -s http://getcomposer.org/installer | php
 <p>我们强烈建议你在本地安装一个全局的 Composer。</p>
 <p>&nbsp;</p>
 <h2>使用 Composer</h2>
-<p>前面讲过<a href="guidelist?id=29">安装Yii框架</a>时，可以通过如下命令来安装Yii框架：</p>
+<p>前面讲过<a href="0201.html">安装Yii框架</a>时，可以通过如下命令来安装Yii框架：</p>
 <pre class="brush: php;toolbar:false;">
 composer.phar create-project --stability dev yiisoft/yii2-app-basic
 </pre>
